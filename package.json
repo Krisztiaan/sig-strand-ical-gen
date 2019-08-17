@@ -1,9 +1,15 @@
 {
+  "main": "./dist/index.js",
   "dependencies": {
+    "express": "^4.17.1",
     "ical-generator": "^1.7.2",
-    "moment": "^2.24.0"
+    "moment": "^2.24.0",
+    "request": "^2.88.0"
   },
   "devDependencies": {
-    "@types/node": "^12.7.2"
+    "@types/node": "^12.7.2",
+    "@types/request": "^2.48.2",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.5.3"
   }
 }

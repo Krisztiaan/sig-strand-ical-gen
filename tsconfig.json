@@ -6,7 +6,7 @@
     "preserveConstEnums": true,
     "sourceMap": true,
     "resolveJsonModule": true,
-    "noEmit": true,
+    "outDir": "./dist",
     "esModuleInterop": true
   },
   "files": ["index.ts"]
