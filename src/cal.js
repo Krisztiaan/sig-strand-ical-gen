@@ -16,6 +16,7 @@ const ical_generator_1 = __importDefault(require("ical-generator"));
 const moment_1 = __importDefault(require("moment"));
 const node_fetch_1 = __importDefault(require("node-fetch"));
 let hits = 0;
+let reqs = [];
 const indexHtml = () => `
 <style>
   body {
@@ -127,13 +128,20 @@ const handleStrandJson = (parsedBody, category, req, res) => {
         });
     }
     console.log(req.url);
-    res.write(cal.toString());
+    cal.serve(res);
 };
 const isValidCategory = (category) => category in cMap;
 const handler = (req, res) => __awaiter(this, void 0, void 0, function* () {
+    reqs.push({ url: req.url, meta: req.headers });
     const urlParts = req.url.split("/");
     const category = urlParts[urlParts.length - 1];
     if (!isValidCategory(category)) {
+        if (category === "logs") {
+            res.writeHead(200, { "Content-Type": "text/json" });
+            res.write(JSON.stringify(reqs));
+            res.end();
+            return;
+        }
         res.writeHead(200, { "Content-Type": "text/html; charset=utf-8" });
         res.write(indexHtml());
         res.end();

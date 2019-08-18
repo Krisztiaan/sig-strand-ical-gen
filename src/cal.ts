@@ -5,6 +5,7 @@ import fetch from "node-fetch";
 import { IncomingMessage, ServerResponse } from "http";
 
 let hits = 0;
+let reqs = [];
 
 const indexHtml = () =>
   `
@@ -159,10 +160,17 @@ const isValidCategory = (category: string): category is keyof typeof cMap =>
   category in cMap;
 
 const handler = async (req: IncomingMessage, res: ServerResponse) => {
+  reqs.push({ url: req.url, meta: req.headers });
   const urlParts = req.url.split("/");
   const category = urlParts[urlParts.length - 1];
 
   if (!isValidCategory(category)) {
+    if (category === "logs") {
+      res.writeHead(200, { "Content-Type": "text/json" });
+      res.write(JSON.stringify(reqs));
+      res.end();
+      return;
+    }
     res.writeHead(200, { "Content-Type": "text/html; charset=utf-8" });
     res.write(indexHtml());
     res.end();
