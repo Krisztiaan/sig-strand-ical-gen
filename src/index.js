@@ -11,4 +11,4 @@ app.use(cal_1.default);
 const port = process.env.PORT || "3000";
 app.set("port", port);
 const server = http_1.default.createServer(app);
-server.listen(port, () => console.log(`Running on localhost:${port}`));
+server.listen(port, () => console.log(`Running on http://localhost:${port}`));

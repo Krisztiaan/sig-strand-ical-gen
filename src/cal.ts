@@ -6,7 +6,8 @@ import { IncomingMessage, ServerResponse } from "http";
 
 let hits = 0;
 
-const indexHtml = `
+const indexHtml = () =>
+  `
 <style>
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -21,6 +22,7 @@ const indexHtml = `
     -moz-border-radius: 28px;
     -webkit-border-radius: 28px;
     border-radius: 28px;
+    margin: 6px;
     display: inline-block;
     cursor: pointer;
     color: #ffffff;
@@ -37,8 +39,7 @@ const indexHtml = `
     top: 1px;
   }
 </style>
-<h2>Strand 2019 iCal v1</h2>
-${hits++}
+<h2>Strand 2019 iCal v1 (${hits++})</h2>
 <br/>
 <a href="./zene" class="myButton">zene</a>
 <br/>
@@ -51,15 +52,16 @@ ${hits++}
 <a href="./kaland" class="myButton">kaland</a>
 <br/>
 <br/>
-* A Strand által szolgáltatott file miatt
+<i>* A Strand által szolgáltatott file miatt
 a 'civil' naptár más eseményeket is tartalmazhat 😅
 <br/>
 ** Ezekhez a programokhoz nem adtak meg időpontokat,
-így egész naposként kerülnek a fesztivál idejére a naptárba
+így egész naposként kerülnek a fesztivál teljes idejére a naptárba</i>
 <br/>
 <br/>
-Tipp: új naptárként add hozzá, ne már létezőhöz, hogy ne keveredjen minden össze
-Tipp: a Google Calendar, és az Apple Calendar is el tudja rejteni az egyes naptárakat
+<b>Tipp:</b> új naptárként add hozzá, ne már létezőhöz, hogy ne keveredjen minden össze
+<br/>
+<b>Tipp:</b> a Google Calendar, és az Apple Calendar is el tudja rejteni az egyes naptárakat
 `.trim();
 
 const cMap = {
@@ -87,8 +89,6 @@ const handleStrandJson = (
   });
 
   const programs = Object.values(strandData.programs);
-
-  console.log(programs[0]);
 
   const fullPrograms = programs.map(program => ({
     ...program,
@@ -163,8 +163,8 @@ const handler = async (req: IncomingMessage, res: ServerResponse) => {
   const category = urlParts[urlParts.length - 1];
 
   if (!isValidCategory(category)) {
-    res.writeHead(200, { "Content-Type": "text/html" });
-    res.write(indexHtml);
+    res.writeHead(200, { "Content-Type": "text/html; charset=utf-8" });
+    res.write(indexHtml());
     res.end();
     return;
   }
