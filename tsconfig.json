@@ -1,13 +1,14 @@
 {
   "compilerOptions": {
-    "lib": ["esnext", "dom"],
+    "target": "ES2016",
+    "lib": ["es2015"],
     "module": "commonjs",
     "removeComments": true,
-    "preserveConstEnums": true,
-    "sourceMap": true,
+    "sourceMap": false,
     "resolveJsonModule": true,
-    "outDir": "./dist",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "inlineSourceMap": false,
+    "inlineSources": false
   },
-  "files": ["index.ts"]
+  "files": ["src/index.ts", "src/cal.ts"]
 }
