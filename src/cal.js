@@ -13,7 +13,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const strand_fesztival_2019_hu_json_1 = __importDefault(require("../strand-fesztival-2019-hu.json"));
 const ical_generator_1 = __importDefault(require("ical-generator"));
-const moment_1 = __importDefault(require("moment"));
+const moment_timezone_1 = __importDefault(require("moment-timezone"));
 const node_fetch_1 = __importDefault(require("node-fetch"));
 let hits = 0;
 let reqs = [];
@@ -94,8 +94,8 @@ const handleStrandJson = (parsedBody, category, req, res) => {
             : strand_fesztival_2019_hu_json_1.default.places[program.place] })));
     const fullProgramsFiltered = fullPrograms.filter(ep => ep.performer.category == cMap[category]);
     fullProgramsFiltered.forEach(p => cal.createEvent({
-        start: moment_1.default(p.startDate).toDate(),
-        end: moment_1.default(p.endDate).toDate(),
+        start: moment_timezone_1.default.tz(p.startDate, "Europe/Budapest").utc(),
+        end: moment_timezone_1.default.tz(p.endDate, "Europe/Budapest").utc(),
         summary: p.performer.name,
         description: p.performer.desc
             .replace(/<br\s*\/?>/gm, "\n")
@@ -113,8 +113,8 @@ const handleStrandJson = (parsedBody, category, req, res) => {
         performers.forEach(([k, p]) => {
             if (!linkedPerformers[k]) {
                 cal.createEvent({
-                    start: moment_1.default("2019-08-20").toDate(),
-                    end: moment_1.default("2019-08-24").toDate(),
+                    start: moment_timezone_1.default.tz("2019-08-20", "Europe/Budapest").utc(),
+                    end: moment_timezone_1.default.tz("2019-08-24", "Europe/Budapest").utc(),
                     allDay: true,
                     summary: p.name,
                     description: p.desc
@@ -128,7 +128,7 @@ const handleStrandJson = (parsedBody, category, req, res) => {
         });
     }
     console.log(req.url);
-    cal.serve(res);
+    res.write(cal.toString());
 };
 const isValidCategory = (category) => category in cMap;
 const handler = (req, res) => __awaiter(this, void 0, void 0, function* () {
@@ -147,7 +147,7 @@ const handler = (req, res) => __awaiter(this, void 0, void 0, function* () {
         res.end();
         return;
     }
-    const currDate = moment_1.default().format("YYYY-MM-DD");
+    const currDate = moment_timezone_1.default().format("YYYY-MM-DD");
     try {
         mc[currDate] =
             mc[currDate] ||

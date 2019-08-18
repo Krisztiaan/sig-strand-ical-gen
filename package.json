@@ -6,9 +6,11 @@
     "tsc": "tsc"
   },
   "dependencies": {
+    "@types/moment-timezone": "^0.5.12",
     "express": "^4.17.1",
     "ical-generator": "^1.7.2",
     "moment": "^2.24.0",
+    "moment-timezone": "^0.5.26",
     "node-fetch": "^2.6.0"
   },
   "devDependencies": {

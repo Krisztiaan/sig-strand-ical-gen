@@ -1,6 +1,6 @@
 import strandData from "../strand-fesztival-2019-hu.json";
 import ical from "ical-generator";
-import moment from "moment";
+import moment from "moment-timezone";
 import fetch from "node-fetch";
 import { IncomingMessage, ServerResponse } from "http";
 
@@ -115,8 +115,8 @@ const handleStrandJson = (
 
   fullProgramsFiltered.forEach(p =>
     cal.createEvent({
-      start: moment(p.startDate).toDate(),
-      end: moment(p.endDate).toDate(),
+      start: moment.tz(p.startDate, "Europe/Budapest").utc(),
+      end: moment.tz(p.endDate, "Europe/Budapest").utc(),
       summary: p.performer.name,
       description: p.performer.desc
         .replace(/<br\s*\/?>/gm, "\n")
@@ -138,8 +138,8 @@ const handleStrandJson = (
     performers.forEach(([k, p]) => {
       if (!linkedPerformers[k]) {
         cal.createEvent({
-          start: moment("2019-08-20").toDate(),
-          end: moment("2019-08-24").toDate(),
+          start: moment.tz("2019-08-20", "Europe/Budapest").utc(),
+          end: moment.tz("2019-08-24", "Europe/Budapest").utc(),
           allDay: true,
           summary: p.name,
           description: p.desc
@@ -154,6 +154,7 @@ const handleStrandJson = (
   }
   console.log(req.url);
   cal.serve(res);
+  // res.write(cal.toString());
 };
 
 const isValidCategory = (category: string): category is keyof typeof cMap =>
