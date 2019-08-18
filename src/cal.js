@@ -105,12 +105,12 @@ const handleStrandJson = (parsedBody, category, req, res) => {
     }));
     if (category === "civil") {
         const performers = Object.entries(strand_fesztival_2019_hu_json_1.default.performers);
-        const linkedPerformers = new Set();
+        const linkedPerformers = {};
         programs.forEach(p => {
-            linkedPerformers.add(p.performer);
+            linkedPerformers[p.performer] = true;
         });
         performers.forEach(([k, p]) => {
-            if (!linkedPerformers.has(k)) {
+            if (!linkedPerformers[k]) {
                 cal.createEvent({
                     start: moment_1.default("2019-08-20").toDate(),
                     end: moment_1.default("2019-08-24").toDate(),
@@ -127,7 +127,7 @@ const handleStrandJson = (parsedBody, category, req, res) => {
         });
     }
     console.log(req.url);
-    cal.serve(res);
+    res.write(cal.toString());
 };
 const isValidCategory = (category) => category in cMap;
 const handler = (req, res) => __awaiter(this, void 0, void 0, function* () {
