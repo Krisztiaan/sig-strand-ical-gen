@@ -1,0 +1,3647 @@
+{
+    "eventdata": {
+        "name": "Strand Festival 2020",
+        "placeholder": { "original": null, "w360": "5d8d29f8abc65_w360.jpg" },
+        "thumbnailBig": 6,
+        "thumbnailSmall": 100
+    },
+    "performers": {
+        "6144": {
+            "name": "Milky Chance",
+            "desc": "",
+            "country": "D",
+            "rank": 6,
+            "links": {
+                "facebook": "https://www.facebook.com/milkychancemusic/",
+                "spotify": "artistId:1hzfo8twXdOegF3xireCYs",
+                "youtube": "https://www.youtube.com/watch?v=ZXsvCIvDN4A "
+            },
+            "images": [
+                {
+                    "original": "60c0a0b6f17f6_original.jpg",
+                    "w360": "60c0a0b6f17f6_w360.jpg"
+                }
+            ],
+            "programs": [9487],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {},
+            "previewmp3": "https://p.scdn.co/mp3-preview/884d858cd4f9e7e849c29027aaf907c512b50053?cid=8897482848704f2a8f8d7c79726a70d4"
+        },
+        "6145": {
+            "name": "Tankcsapda",
+            "desc": "",
+            "country": "",
+            "rank": 100,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60ba08c13e039_original.jpg",
+                    "w360": "60ba08c13e039_w360.jpg"
+                }
+            ],
+            "programs": [9030],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6146": {
+            "name": "Majka & Curtis",
+            "desc": "",
+            "country": "",
+            "rank": 103,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "5dde7af5e194f_original.jpg",
+                    "w360": "5dde7af5e194f_w360.jpg"
+                }
+            ],
+            "programs": [9019],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6148": {
+            "name": "Bagossy Brothers Company",
+            "desc": "",
+            "country": "",
+            "rank": 102,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60cc36e859e50_original.jpg",
+                    "w360": "60cc36e859e50_w360.jpg"
+                }
+            ],
+            "programs": [9081],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6150": {
+            "name": "Irie Maffia",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "5e4bc32b11cc5_original.jpg",
+                    "w360": "5e4bc32b11cc5_w360.jpg"
+                }
+            ],
+            "programs": [9022],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6151": {
+            "name": "Horváth Tamás",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "5dde7bae538a6_original.jpg",
+                    "w360": "5dde7bae538a6_w360.jpg"
+                }
+            ],
+            "programs": [9057],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6152": {
+            "name": "Halott Pénz",
+            "desc": "",
+            "country": "",
+            "rank": 101,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "5ddf8c0c6e797_original.jpg",
+                    "w360": "5ddf8c0c6e797_w360.jpg"
+                }
+            ],
+            "programs": [9027],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6422": {
+            "name": "Jumodaddy",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "5e4bb18a22fb7_original.jpg",
+                    "w360": "5e4bb18a22fb7_w360.jpg"
+                }
+            ],
+            "programs": [9016],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6432": {
+            "name": "Pál Utcai Fiúk",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60ba090a460a9_original.jpg",
+                    "w360": "60ba090a460a9_w360.jpg"
+                }
+            ],
+            "programs": [9031],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6435": {
+            "name": "Ganxsta Zolee és a Kartel",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60b8e4c7186b8_original.jpg",
+                    "w360": "60b8e4c7186b8_w360.jpg"
+                }
+            ],
+            "programs": [9034],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6439": {
+            "name": "30Y",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60b8c24367a64_original.jpg",
+                    "w360": "60b8c24367a64_w360.jpg"
+                }
+            ],
+            "programs": [9038],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6444": {
+            "name": "Szabó Balázs Bandája",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60b8c3d2b02ee_original.jpg",
+                    "w360": "60b8c3d2b02ee_w360.jpg"
+                }
+            ],
+            "programs": [9043],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6448": {
+            "name": "Csaknekedkislány",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60b8c35071a68_original.jpg",
+                    "w360": "60b8c35071a68_w360.jpg"
+                }
+            ],
+            "programs": [9047],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6450": {
+            "name": "Kiscsillag",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60ba24cea51f0_original.jpg",
+                    "w360": "60ba24cea51f0_w360.jpg"
+                }
+            ],
+            "programs": [9049],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6452": {
+            "name": "Esti Kornél",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60b8c36eb4d9c_original.jpg",
+                    "w360": "60b8c36eb4d9c_w360.jpg"
+                }
+            ],
+            "programs": [9053],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6453": {
+            "name": "Péterfy Bori & Love Band",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60ba091b7fc64_original.jpg",
+                    "w360": "60ba091b7fc64_w360.jpg"
+                }
+            ],
+            "programs": [9054],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6458": {
+            "name": "Andro",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60b8c25413d46_original.jpg",
+                    "w360": "60b8c25413d46_w360.jpg"
+                }
+            ],
+            "programs": [9060],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6460": {
+            "name": "Fish!",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "5e4bdcfdc5a71_original.jpg",
+                    "w360": "5e4bdcfdc5a71_w360.jpg"
+                }
+            ],
+            "programs": [9062],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6477": {
+            "name": "Intim Torna Illegál",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "5e4e7a4a9f36e_original.jpg",
+                    "w360": "5e4e7a4a9f36e_w360.jpg"
+                }
+            ],
+            "programs": [9064],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": { "title": "Búcsúkoncert", "substitle": null }
+        },
+        "6478": {
+            "name": "Konyha",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60b8c39ca4b19_original.jpg",
+                    "w360": "60b8c39ca4b19_w360.jpg"
+                }
+            ],
+            "programs": [9065],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6483": {
+            "name": "Platon Karataev",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60dd6363a619d_original.jpg",
+                    "w360": "60dd6363a619d_w360.jpg"
+                }
+            ],
+            "programs": [9070],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6486": {
+            "name": "Galaxisok",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "5e4e7f2ad970a_original.jpg",
+                    "w360": "5e4e7f2ad970a_w360.jpg"
+                }
+            ],
+            "programs": [9073],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6487": {
+            "name": "Fran Palermo",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60ba08e7dc3cb_original.jpg",
+                    "w360": "60ba08e7dc3cb_w360.jpg"
+                }
+            ],
+            "programs": [9074],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6599": {
+            "name": "Aurevoir.",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60b8c330e165a_original.jpg",
+                    "w360": "60b8c330e165a_w360.jpg"
+                }
+            ],
+            "programs": [9241],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6600": {
+            "name": "Ohnody",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "61003e3865c6f_original.jpg",
+                    "w360": "61003e3865c6f_w360.jpg"
+                }
+            ],
+            "programs": [9489],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6601": {
+            "name": "Analog Balaton",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "5ed0c30124922_original.jpg",
+                    "w360": "5ed0c30124922_w360.jpg"
+                }
+            ],
+            "programs": [9243],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6602": {
+            "name": "Carson Coma",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60b8c33f960c9_original.jpg",
+                    "w360": "60b8c33f960c9_w360.jpg"
+                }
+            ],
+            "programs": [9244],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6610": {
+            "name": "Szabó Balázs Máté",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "6107bc2697445_original.jpg",
+                    "w360": "6107bc2697445_w360.jpg"
+                }
+            ],
+            "programs": [9248],
+            "category": 512,
+            "categories": [512],
+            "isDiscoverable": 1,
+            "promoter": { "title": "Dumaszínház bemutatja:", "substitle": null }
+        },
+        "6611": {
+            "name": "Janklovics Péter",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60ec566ba136e_original.jpg",
+                    "w360": "60ec566ba136e_w360.jpg"
+                }
+            ],
+            "programs": [9249],
+            "category": 512,
+            "categories": [512],
+            "isDiscoverable": 1,
+            "promoter": { "title": "Dumaszínház bemutatja:", "substitle": null }
+        },
+        "6624": {
+            "name": "Lost Frequencies",
+            "desc": "",
+            "country": "BE",
+            "rank": 10,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60b8c1e0089d1_original.jpg",
+                    "w360": "60b8c1e0089d1_w360.jpg"
+                }
+            ],
+            "programs": [9260],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6627": {
+            "name": "Elefánt",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60b8c35e8fb92_original.jpg",
+                    "w360": "60b8c35e8fb92_w360.jpg"
+                }
+            ],
+            "programs": [9263],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6628": {
+            "name": "Alle Farben",
+            "desc": "",
+            "country": "D",
+            "rank": 11,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "5eec9692aa117_original.jpg",
+                    "w360": "5eec9692aa117_w360.jpg"
+                }
+            ],
+            "programs": [9264],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6647": {
+            "name": "Hősök",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60ba247629160_original.jpg",
+                    "w360": "60ba247629160_w360.jpg"
+                }
+            ],
+            "programs": [9283],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6668": {
+            "name": "Anna & the Barbies",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60b8c2ab314ab_original.jpg",
+                    "w360": "60b8c2ab314ab_w360.jpg"
+                }
+            ],
+            "programs": [9306],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6669": {
+            "name": "Nagy Feró és a Beatrice",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60ba08d5b1dfc_original.jpg",
+                    "w360": "60ba08d5b1dfc_w360.jpg"
+                }
+            ],
+            "programs": [9307],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6670": {
+            "name": "Bohemian Betyars",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60b8e499338af_original.jpg",
+                    "w360": "60b8e499338af_w360.jpg"
+                }
+            ],
+            "programs": [9308],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6671": {
+            "name": "Erik Sumo Band",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60ba09ad0d22f_original.jpg",
+                    "w360": "60ba09ad0d22f_w360.jpg"
+                }
+            ],
+            "programs": [9309],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6672": {
+            "name": "Hiperkarma",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60b8e4d4b5b54_original.jpg",
+                    "w360": "60b8e4d4b5b54_w360.jpg"
+                }
+            ],
+            "programs": [9310],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6673": {
+            "name": "NECC Party",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60ec3d30a01f8_original.jpg",
+                    "w360": "60ec3d30a01f8_w360.jpg"
+                }
+            ],
+            "programs": [9311],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6674": {
+            "name": "Paddy & The Rats",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60b8c3b323aab_original.jpg",
+                    "w360": "60b8c3b323aab_w360.jpg"
+                }
+            ],
+            "programs": [9312],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6675": {
+            "name": "Ricsárdgír",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60ba092ae631e_original.jpg",
+                    "w360": "60ba092ae631e_w360.jpg"
+                }
+            ],
+            "programs": [9313],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6676": {
+            "name": "Road",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60b8c3c5bf7e8_original.jpg",
+                    "w360": "60b8c3c5bf7e8_w360.jpg"
+                }
+            ],
+            "programs": [9314],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6677": {
+            "name": "Supernem",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60ba0938633d1_original.jpg",
+                    "w360": "60ba0938633d1_w360.jpg"
+                }
+            ],
+            "programs": [9315],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6678": {
+            "name": "Tesco Disco",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60dd637591210_original.jpg",
+                    "w360": "60dd637591210_w360.jpg"
+                }
+            ],
+            "programs": [9316],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6679": {
+            "name": "The Biebers",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60b8c3df19990_original.jpg",
+                    "w360": "60b8c3df19990_w360.jpg"
+                }
+            ],
+            "programs": [9317],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6825": {
+            "name": "Ocho Macho",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60b9f9d7114d1_original.jpg",
+                    "w360": "60b9f9d7114d1_w360.jpg"
+                }
+            ],
+            "programs": [9481],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6826": {
+            "name": "Kaláka",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60ba08fab0324_original.jpg",
+                    "w360": "60ba08fab0324_w360.jpg"
+                }
+            ],
+            "programs": [9482],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6840": {
+            "name": "Aron Andras & the Black Circle Orchestra",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60d032e055ff0_original.jpg",
+                    "w360": "60d032e055ff0_w360.jpg"
+                }
+            ],
+            "programs": [9488],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6841": {
+            "name": "TNT",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60f98c34a88f3_original.jpg",
+                    "w360": "60f98c34a88f3_w360.jpg"
+                }
+            ],
+            "programs": [9490],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6845": {
+            "name": "Szomszédnéni Produkciós Iroda",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60ec55e0a91f1_original.jpg",
+                    "w360": "60ec55e0a91f1_w360.jpg"
+                }
+            ],
+            "programs": [9497],
+            "category": 512,
+            "categories": [512],
+            "isDiscoverable": 1,
+            "promoter": { "title": "Dumaszínház bemutatja:", "substitle": null }
+        },
+        "6852": {
+            "name": "Dolák-Saly Róbert",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "60ec57067f39b_original.jpg",
+                    "w360": "60ec57067f39b_w360.jpg"
+                }
+            ],
+            "programs": [9506],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6855": {
+            "name": "Tűzijáték",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9515],
+            "category": 512,
+            "categories": [512],
+            "isDiscoverable": 0,
+            "promoter": {}
+        },
+        "6857": {
+            "name": "Momentán Társulat - Improvizációs játékok",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "61116649b9f91_original.jpg",
+                    "w360": "61116649b9f91_w360.jpg"
+                }
+            ],
+            "programs": [9517],
+            "category": 512,
+            "categories": [512],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6858": {
+            "name": "Detox jóga",
+            "desc": "<p>Kezdd a napot egy frissítő jógával! Tudtad, hogy a jóga jó a másnapra is?</p>",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "6111651794d42_original.jpg",
+                    "w360": "6111651794d42_w360.jpg"
+                }
+            ],
+            "programs": [9518, 9519],
+            "category": 512,
+            "categories": [512],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6859": {
+            "name": "Pamkutya - vlogger",
+            "desc": "<p>Kik vannak a napszemüveg mögött? Osbáth Norbival beszélgetünk.</p>",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "611671da72858_original.jpg",
+                    "w360": "611671da72858_w360.jpg"
+                }
+            ],
+            "programs": [9520],
+            "category": 512,
+            "categories": [512],
+            "isDiscoverable": 1,
+            "promoter": {
+                "title": "Index - STRAND Kávéház beszélgetések",
+                "substitle": null
+            }
+        },
+        "6860": {
+            "name": "Bánki Beni - költő, slammer",
+            "desc": "<p>A vers újra szexi - Bánki Beni már évek óta turnézik rendhagyó irodalomóráival, a legújabb szövegeit viszont a Strandra hozza először.</p>",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "61116505a3f65_original.jpg",
+                    "w360": "61116505a3f65_w360.jpg"
+                }
+            ],
+            "programs": [9521],
+            "category": 512,
+            "categories": [512],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6861": {
+            "name": "Dr. Zacher Gábor - toxikológus",
+            "desc": "<p>Járvány, oltás és függőségek. Dr. Zacher Gábor toxikológussal beszélgetünk.</p>",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "611164ebaaa44_original.jpg",
+                    "w360": "611164ebaaa44_w360.jpg"
+                }
+            ],
+            "programs": [9522],
+            "category": 512,
+            "categories": [512],
+            "isDiscoverable": 1,
+            "promoter": {
+                "title": "Index - STRAND Kávéház beszélgetések",
+                "substitle": null
+            }
+        },
+        "6862": {
+            "name": "Armando Mundaraín - séf",
+            "desc": "<p>Mitől vonzóbb Magyarország egy venezuelai számára, mint saját mediterrán élete?</p>",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "611164f957fe8_original.jpg",
+                    "w360": "611164f957fe8_w360.jpg"
+                }
+            ],
+            "programs": [9523],
+            "category": 512,
+            "categories": [512],
+            "isDiscoverable": 1,
+            "promoter": {
+                "title": "Index - STRAND Kávéház beszélgetések",
+                "substitle": null
+            }
+        },
+        "6863": {
+            "name": "Hide the pain Harold, a STRAND2021 embere",
+            "desc": "<p>Harold a nagyvilágban - utazások, fellépések, élmények</p>",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "611165266063a_original.jpg",
+                    "w360": "611165266063a_w360.jpg"
+                }
+            ],
+            "programs": [9524],
+            "category": 512,
+            "categories": [512],
+            "isDiscoverable": 1,
+            "promoter": {
+                "title": "Index - STRAND Kávéház beszélgetések",
+                "substitle": null
+            }
+        },
+        "6883": {
+            "name": "Nirvana Acoustic by Lugosi Dani & Takács Vilkó",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "61003bce6f8fc_original.jpg",
+                    "w360": "61003bce6f8fc_w360.jpg"
+                }
+            ],
+            "programs": [9567],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6884": {
+            "name": "O'Sullivan",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "61003e437818c_original.jpg",
+                    "w360": "61003e437818c_w360.jpg"
+                }
+            ],
+            "programs": [9568],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6885": {
+            "name": "Henri Gonzo",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "6116723f89237_original.jpg",
+                    "w360": "6116723f89237_w360.jpg"
+                }
+            ],
+            "programs": [9569],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6886": {
+            "name": "Hangácsi Márton",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "61003b9e82353_original.jpg",
+                    "w360": "61003b9e82353_w360.jpg"
+                }
+            ],
+            "programs": [9570],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6887": {
+            "name": "Azahriah",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "61003bf1e504d_original.jpg",
+                    "w360": "61003bf1e504d_w360.jpg"
+                }
+            ],
+            "programs": [9571],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6888": {
+            "name": "A 10 NAP Strand Tábortűz Nyertes!",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9572],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6889": {
+            "name": "Szivák Zsolt",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "61003f5469f61_original.jpg",
+                    "w360": "61003f5469f61_w360.jpg"
+                }
+            ],
+            "programs": [9573],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6890": {
+            "name": "Ajsa Luna",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9574],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6899": {
+            "name": "Giorgio és Barni (Carson Coma)",
+            "desc": "",
+            "country": "",
+            "rank": 1000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "610040addb770_original.jpg",
+                    "w360": "610040addb770_w360.jpg"
+                }
+            ],
+            "programs": [9585],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6900": {
+            "name": "DJ Jokó",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "610b89e3c5a18_original.jpg",
+                    "w360": "610b89e3c5a18_w360.jpg"
+                }
+            ],
+            "programs": [9586],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6901": {
+            "name": "Fesztikvíz",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9587],
+            "category": 512,
+            "categories": [512],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6902": {
+            "name": "TRIÓ!  - podcast csatorna tulajdonosok",
+            "desc": "<p>Férfi szemmel napjaink-Török Ábel, Abosi Barni és Henry Kettner azaz a TRIÓ!</p>",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "6111653e2439f_original.jpg",
+                    "w360": "6111653e2439f_w360.jpg"
+                }
+            ],
+            "programs": [9588],
+            "category": 512,
+            "categories": [512],
+            "isDiscoverable": 1,
+            "promoter": {
+                "title": "Index - STRAND Kávéház beszélgetések",
+                "substitle": null
+            }
+        },
+        "6903": {
+            "name": "Turai Barna - sikidegvagyok Instagram oldal alapítója",
+            "desc": "<p>Turai Barnával beszélgetünk a nyelvhasználatról, arról, hogy miért humorosak azok a posztok amik a síkidegen vannak.</p>",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "6111654bc5351_original.jpg",
+                    "w360": "6111654bc5351_w360.jpg"
+                }
+            ],
+            "programs": [9589],
+            "category": 512,
+            "categories": [512],
+            "isDiscoverable": 1,
+            "promoter": {
+                "title": "Index - STRAND Kávéház beszélgetések",
+                "substitle": null
+            }
+        },
+        "6904": {
+            "name": "Kiss Balázs bűvész és vendége",
+            "desc": "<p>Gyere és nézd meg a bűvész trükkjeit a saját szemeddel, különben úgysem hiszed el. Ne lepődj meg ha egy-két zenész is odatéved a színpadra.</p>",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "610bbe8042552_original.jpg",
+                    "w360": "610bbe8042552_w360.jpg"
+                }
+            ],
+            "programs": [9590],
+            "category": 512,
+            "categories": [512],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6909": {
+            "name": "Elf",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9597, 9598],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6910": {
+            "name": "Roberto Rios",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9599, 9655],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6911": {
+            "name": "Rock The City",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9600],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6916": {
+            "name": "Sorverseny",
+            "desc": "<p>Minden nap 12:00-től 18:00-ig – jelentkezés a Strand Kaland faháznál!</p><p>Jelentkezzetek 3-6 fős csapattal a Strand Kaland izgalmas vetélkedőire és nyerjetek naponta szuper cuccokat. Játszotok minden nap, hogy esélyetek legyen a fődíjra: bérlet a csapat minden tagjának a következő STRAND-ra.</p>",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9613],
+            "category": 516,
+            "categories": [516],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6917": {
+            "name": "1 perc és nyersz",
+            "desc": "<p>Minden nap 12:00-től 18:00-ig – jelentkezés a Strand Kaland faháznál!</p><p>Jelentkezzetek 3-6 fős csapattal a Strand Kaland izgalmas vetélkedőire és nyerjetek naponta szuper cuccokat. Játszotok minden nap, hogy esélyetek legyen a fődíjra: bérlet a csapat minden tagjának a következő STRAND-ra.</p>",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9614],
+            "category": 516,
+            "categories": [516],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6918": {
+            "name": "Futárvexi",
+            "desc": "<p>Zenei kvíz és futóverseny egybegyúrva</p><p>Minden nap 12:00-től 18:00-ig – jelentkezés a Strand Kaland faháznál!</p><p>Jelentkezzetek 3-6 fős csapattal a Strand Kaland izgalmas vetélkedőire és nyerjetek naponta szuper cuccokat. Játszotok minden nap, hogy esélyetek legyen a fődíjra: bérlet a csapat minden tagjának a következő STRAND-ra.</p>",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9615],
+            "category": 516,
+            "categories": [516],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6919": {
+            "name": "Balaton futam",
+            "desc": "<p>Ügyességi játékok a Balatonban</p><p>Minden nap 12:00-től 18:00-ig – jelentkezés a Strand Kaland faháznál!</p><p>Jelentkezzetek 3-6 fős csapattal a Strand Kaland izgalmas vetélkedőire és nyerjetek naponta szuper cuccokat. Játszotok minden nap, hogy esélyetek legyen a fődíjra: bérlet a csapat minden tagjának a következő STRAND-ra.</p>",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9616],
+            "category": 516,
+            "categories": [516],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6925": {
+            "name": "Vízi dili",
+            "desc": "<p>Minden nap 12:00-tól 16:00-ig – gyülekező a Balatonban, keresd az óriási felfújt kacsákat!</p><p>Váltóversenyek a vízben: kacsa futam, éhes víziló, kacsa lovag, kaja csata, vízi számháború.</p>",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9626, 9627, 9628, 9629, 9630],
+            "category": 512,
+            "categories": [512],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6926": {
+            "name": "Játszóház",
+            "desc": "<p>A Játszóházban megmentheted a világot, terelgetheted a nyájadat, lehetsz a földkerekség legjobb fűszerkereskedője, felépítheted a New York-Los Angeles vasútvonalat, lenyűgözheted a királyt bámulatos csempézési képességeddel vagy akár tűzijátékot is szervezhetsz a lakosságnak.</p><p>A budapesti hétköznap esték meghatározó pontja a Játszóház, ahol hetente többszáz fiatal nyomja egyszerre a jobbnál jobb társasjátékokat, néhány lelkes játékmester segítségével. Ezt hozzuk most le a Strandra. Heverjétek ki nálunk az előző estét, hangolódjatok egymásra, találkozzatok egy jó társas mellett!</p>",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9631, 9632, 9633, 9634, 9635],
+            "category": 512,
+            "categories": [512],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6928": {
+            "name": "Kötélhúzó verseny",
+            "desc": "<p>20 méteres kötelekhez várunk benneteket, hogy magatokhoz húzzátok a legmenőbb strandos ajándékokat.</p>",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9641],
+            "category": 515,
+            "categories": [515],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6929": {
+            "name": "Párnacsata",
+            "desc": "<p>Klasszikus párnacsata a Strandon 200 db párnával</p>",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9642],
+            "category": 515,
+            "categories": [515],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6930": {
+            "name": "Kidobós",
+            "desc": "<p>Gyertek el a legnagyobb kidobós játékra! Óriás kidobós idén is 200 színes labdával.</p>",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9643],
+            "category": 515,
+            "categories": [515],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6931": {
+            "name": "Reflexfogó",
+            "desc": "<p>Itt most csak a reflexeid és a gyorsaság számít. Sprintelj az ajándékokért!</p>",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9644],
+            "category": 515,
+            "categories": [515],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6932": {
+            "name": "Halászfogó",
+            "desc": "<p>Melyik hal nem akad horogra? Légy te a legügyesebb és cseleszd ki a halász hálóját.</p>",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9645],
+            "category": 515,
+            "categories": [515],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6938": {
+            "name": "Szerencsesziget chill zone",
+            "desc": "<p>Modern és integrált élményszigettel jött a 30 éves Szerencsejáték Zrt. a 10 NAP STRAND-ra. Az egyszerre három funkciót betöltő SzerencseSziget chill zone-ként, szurkolói térként és akadálymentes értékesítőpontként most debütál.</p><p> A SzerencseSzigeten lottózó, fesztiválbarát játékok és értékes nyeremények várják az érdeklődőket. A nemzeti lottótársaság a Ökumenikus Segélyszervezettel együttműködve a hátrányos helyzetű gyerekek iskolakezdési támogatását is ösztönzi, a telefonálók ajándékot nyerhetnek.</p>",
+            "country": "",
+            "rank": 1502,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "6112a0bf22b2b_original.jpg",
+                    "w360": "6112a0bf22b2b_w360.jpg"
+                }
+            ],
+            "programs": [],
+            "category": 512,
+            "categories": [512],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6940": {
+            "name": "A Füstmentes Jövőért",
+            "desc": "<p>Tudj meg többet a dohányzás káros hatásairól és tájékozódj az ártalomcsökkentés fontosságáról a Füstmentes standon, ahol VR eszközök segítségével és különböző aktivitásokon keresztül mélyülhetsz el a témában.</p><p><a href=\"http://www.fustmentes.hu\">www.fustmentes.hu</a></p>",
+            "country": "",
+            "rank": 1507,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "6113df4f4c052_original.jpg",
+                    "w360": "6113df4f4c052_w360.jpg"
+                }
+            ],
+            "programs": [],
+            "category": 512,
+            "categories": [512],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6943": {
+            "name": "Válaszd a hazait hónap",
+            "desc": "<p>Augusztusban vásároljunk tudatosan hazai termékeket és védjük együtt a magyar munkahelyeket. Válaszd te is a védjegyes termékeket, mert tanúsítják az eredetet, ellenőrzött, megbízható termékek!</p>",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "61141ae59ace0_original.jpg",
+                    "w360": "61141ae59ace0_w360.jpg"
+                }
+            ],
+            "programs": [],
+            "category": 512,
+            "categories": [512],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6947": {
+            "name": "Klímaválság – Te mit teszel a jövő generációiért?",
+            "desc": "<p>A #ClimateOfChange nemzetközi kampány célja, hogy felhívja a figyelmet a klímaváltozás veszélyeire és Európa-szerte cselekvésre ösztönözze azokat, akik szívükön viselik Földünk és a jövő generációk sorsát.</p><p>Magyarországot a Baptista Szeretetszolgálat képviseli, amely hazánk egyik legnagyobb segélyszervezeteként intézményein keresztül naponta mintegy 30 ezer embernek nyújt rendszeres segélyt, élelmet, humanitárius és lelki segítséget. A klímaválság várható következményeként egyre fokozódó gazdasági válság eredményeképp sajnos a jövőben tömegek szorulhatnak segítségre. A #ClimateOfChange célja ennek megelőzése, illetve mérséklése.</p><p>A mozgalom Európa-szerte számos rendezvényen hívja fel a figyelmet a klímavédelemre, vitaversenytől az embereket közvetlenül megszólító utcai- és fesztivál-performanszokig számos izgalmas aktivitást szervez.</p><p>Téged is várunk! Ha érdekel Földünk és a jövő generációinak sorsa, keress bennünket a Hide the Pain Harold negyednél!</p><p>Szórakoztató és érdekes programokkal várunk: kipróbálhatod az óriási öko-puzzle-t vagy éppen társasjáték-sarkunkat, környezetbarát játékokkal. Kikapcsolódás közben pedig sokat tanulhatsz a környezettudatos életmódról, a kihalófélben lévő vagy veszélyeztetett állatokról, illetve más, fontos ökológiai kérdésekről.</p>",
+            "country": "",
+            "rank": 1512,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "6114fc805aef9_original.jpg",
+                    "w360": "6114fc805aef9_w360.jpg"
+                }
+            ],
+            "programs": [],
+            "category": 512,
+            "categories": [512],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6948": {
+            "name": "Kraft dimenzió",
+            "desc": "<p>Játssz a fényekkel, a színekkel és váltsd valóra mindazt, amit elképzeltél!</p><p>Kipróbálnád a graffitit, de eddig még nem lépted meg? Váltsd valóra és fesd meg a kreatív álmaidat a KRAFT DIMENZIÓ falain minden nap 14:00-18:00 között! A festékről és a szabad felületről is gondoskodunk, sőt, a street art világában jártas művészektől is tanulhatsz a helyszínen. De nemcsak ezért érdemes belevágnod, hanem mert amit nappal a többiekkel együtt alkottál, éjjel fényfestés formájában eleveníthetitek meg átalakítva a nappal alkotott műalkotás kereteit. Persze ebben is számítunk rád! Lépj be a KRAFT Dimenzióba és alkoss szabadon éjjel-nappal!</p>",
+            "country": "",
+            "rank": 1503,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "6114fcead7c49_original.jpg",
+                    "w360": "6114fcead7c49_w360.jpg"
+                }
+            ],
+            "programs": [],
+            "category": 512,
+            "categories": [512],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6951": {
+            "name": "ZSÚRE w/DJ Tinder & Loripop",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9652],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6952": {
+            "name": "Stereostrip",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9653],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6953": {
+            "name": "Davko",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9654],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6954": {
+            "name": "Chiqito",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9656],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6955": {
+            "name": "Rusty",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9657],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6956": {
+            "name": "Sabee",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9658],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6957": {
+            "name": "Andras Bader & Peter Helecz",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9659],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6959": {
+            "name": "Avika",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9661],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6960": {
+            "name": "Justrice",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9662],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6961": {
+            "name": "Maxim Kuznyecov",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9663],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6962": {
+            "name": "Obrotka",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9664],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6972": {
+            "name": "HUAWEI Experience FunZone",
+            "desc": "<p>Próbáld ki a HUAWEI legújabb eszközeit, és szállj versenybe az értékes nyereményekért például a HUAWEI Mateview GT 34 collos, 3K-s, 165 Hz-es, ívelt gamer monitorán, vagy épp a HUAWEI Watch 3 Pro eSIM-es okosóra segítségével egy kis testmozgásban megmérettetve magadat, de a HUAWEI Matepad 11 táblagépnek köszönhetően a 10 nap Strand idejére akár saját tervezésű tetoválásod is lehet!</p><p>Találkozzunk a HUAWEI Experience FunZone-ban a Strand helyszínén, és zsebeld be a napi legjobbaknak járó 10db HUAWEI Freebuds 4i egyikét!</p>",
+            "country": "",
+            "rank": 1505,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "61166f75aad32_original.jpg",
+                    "w360": "61166f75aad32_w360.jpg"
+                }
+            ],
+            "programs": [],
+            "category": 512,
+            "categories": [512],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6974": {
+            "name": "Subpop",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9677, 9678],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6975": {
+            "name": "Scaby",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9679],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6976": {
+            "name": "Bréda Bia",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9680],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6977": {
+            "name": "Kempy",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9681],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6978": {
+            "name": "Jauri",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9682],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6979": {
+            "name": "O'Neal",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9683],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6980": {
+            "name": "Christopher",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9684],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6981": {
+            "name": "Andrea Lane",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9685],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6982": {
+            "name": "Dante",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9686],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6983": {
+            "name": "Hory",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9687, 9688],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6984": {
+            "name": "Ajkay",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9689],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6985": {
+            "name": "Abstrct",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9690],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6986": {
+            "name": "Monrow",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9691, 9692, 9693],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "6987": {
+            "name": "Benkane",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9694],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "7002": {
+            "name": "Joer Junior",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9711],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "7004": {
+            "name": "E.ON Chill Zone",
+            "desc": "<p><b><u>Fesztiválozz velünk a Strand-on!</u></b>\r\n</p><p>Lemerültél az esti buliban? Ne aggódj mi feltöltünk energiával! Napközben keresd az E.ON Chill Zone-t, ahonnan garantáljuk, hogy Te is és a mobilod is energiától telve távoztok!\r\n</p><p><b>Milyen programokkal várunk?</b>\r\n</p><p>Bírod a feszültséget? Hidd el mi is, de tudjuk, hogy időnként kell egy kis kikapcsolódás és feltöltődés!\r\n</p><p>Bizony fárasztó egész nap jönni-menni / táncolni / strandolni, egyszóval fesztiválozni. Épp ezért úgy alakítottuk ki az E.ON Chill Zone-t, hogy legyen egy szusszanásnyi hely a forgatag közepén!\r\n</p><p>Napközben mozifilmekkel és egyéb játékokkal várunk téged, a telefonodnak meg biztosítunk egy kis privát szférát, ahol nyugodtan töltődhet amíg te átadod magad a filmek varázsának!\r\n</p><p><b>Mit nézhetsz meg nálunk?</b>\r\n</p><p><b>Szerda </b>\r\n</p><p><b>11:00 - 14:00 Üvegtigris</b>\r\n</p><p><b>14:00 - 16:00 Valami Amerika</b>\r\n</p><p><b>Csütörtök</b>\r\n</p><p><b>11:00 - 14:00 Igenember</b>\r\n</p><p><b></b>\r\n</p><p><b>14:00 - 16:00 Ace Ventura</b>\r\n</p><p><b>Péntek</b>\r\n</p><p><b>11:00 - 14:00 Rossz szomszédság</b>\r\n</p><p><b></b>\r\n</p><p><b></b>\r\n</p><p><b>14:00 - 16:00 Nagyfater elszabadul</b>\r\n</p><p><b>Szombat</b>\r\n</p><p><b>11:00 - 14:00 Másnaposok</b>\r\n</p><p><b></b>\r\n</p><p><b></b>\r\n</p><p><b></b>\r\n</p><p><b>14:00 - 16:00 Project X</b>\r\n</p><p><b>Vasárnap</b>\r\n</p><p><b>11:00 - 14:00 Másnaposok 2</b>\r\n</p><p><b></b>\r\n</p><p><b></b>\r\n</p><p><b></b>\r\n</p><p><b>14:00 - 16:00 Itt a vége</b>\r\n</p><p><b>Milyen egyéb programok vannak még?</b></p><p>Nos James Bond sem árulhatta el minden titkát. Sok meglepetéssel, kvízzel és ajándékokkal készülünk Neked, ezért mindenképp érdemes a délelőttöt nálunk tölteni!\r\n</p><p>Velünk tartasz?\r\n</p>",
+            "country": "",
+            "rank": 1504,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "61167755b6959_original.jpg",
+                    "w360": "61167755b6959_w360.jpg"
+                }
+            ],
+            "programs": [],
+            "category": 512,
+            "categories": [512],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "7005": {
+            "name": "Smilo",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9712],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": { "title": "Be Massive Day", "substitle": null }
+        },
+        "7006": {
+            "name": "David Salow",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9714],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": { "title": "Be Massive Day", "substitle": null }
+        },
+        "7007": {
+            "name": "Lerm",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9715],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": { "title": "Be Massive Day", "substitle": null }
+        },
+        "7008": {
+            "name": "Mira JoO",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9716],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": { "title": "Be Massive Day", "substitle": null }
+        },
+        "7009": {
+            "name": "Robert Makai",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9717],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": { "title": "Be Massive Day", "substitle": null }
+        },
+        "7010": {
+            "name": "Blas",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9718],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": { "title": "Be Massive Day", "substitle": null }
+        },
+        "7013": {
+            "name": "Ördög Nóra, Marsalkó Dávid és Lobenwein Norbert kurátorok",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9727],
+            "category": 512,
+            "categories": [512],
+            "isDiscoverable": 1,
+            "promoter": {
+                "title": "Index - STRAND Kávéház beszélgetések",
+                "substitle": null
+            }
+        },
+        "7014": {
+            "name": "Horváth Tamás",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9728],
+            "category": 512,
+            "categories": [512],
+            "isDiscoverable": 1,
+            "promoter": { "title": "Közönségtalálkozó", "substitle": null }
+        },
+        "7015": {
+            "name": "Tankcsapda",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9729],
+            "category": 512,
+            "categories": [512],
+            "isDiscoverable": 1,
+            "promoter": { "title": "Közönségtalálkozó", "substitle": null }
+        },
+        "7016": {
+            "name": "Irie Maffia",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9730],
+            "category": 512,
+            "categories": [512],
+            "isDiscoverable": 1,
+            "promoter": { "title": "Közönségtalálkozó", "substitle": null }
+        },
+        "7017": {
+            "name": "Bagossy Brothers Company",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9731],
+            "category": 512,
+            "categories": [512],
+            "isDiscoverable": 1,
+            "promoter": { "title": "Közönségtalálkozó", "substitle": null }
+        },
+        "7018": {
+            "name": "Ocho Macho",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9732],
+            "category": 512,
+            "categories": [512],
+            "isDiscoverable": 1,
+            "promoter": { "title": "Közönségtalálkozó", "substitle": null }
+        },
+        "7024": {
+            "name": "Dj Gozth",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9738, 9742],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": { "title": "Dj Gozth & Friends", "substitle": null }
+        },
+        "7025": {
+            "name": "Slowgod",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9739],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": { "title": "Dj Gozth & Friends", "substitle": null }
+        },
+        "7026": {
+            "name": "Siaga",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9740],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": { "title": "Dj Gozth & Friends", "substitle": null }
+        },
+        "7027": {
+            "name": "Nice",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9741],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": { "title": "Dj Gozth & Friends", "substitle": null }
+        },
+        "7028": {
+            "name": "Dual Destress",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "611ba88d49d1f_original.jpg",
+                    "w360": "611ba88d49d1f_w360.jpg"
+                }
+            ],
+            "programs": [9743],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": { "title": "SPONTAN Techpolis", "substitle": null }
+        },
+        "7029": {
+            "name": "Minka",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "611ba935daa12_original.jpg",
+                    "w360": "611ba935daa12_w360.jpg"
+                }
+            ],
+            "programs": [9744],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": { "title": "SPONTAN Techpolis", "substitle": null }
+        },
+        "7030": {
+            "name": "Viktor Bondar",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "611ba98c806cd_original.jpg",
+                    "w360": "611ba98c806cd_w360.jpg"
+                }
+            ],
+            "programs": [9745],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": { "title": "SPONTAN Techpolis", "substitle": null }
+        },
+        "7031": {
+            "name": "Ratkay",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "611baa1cf4125_original.jpg",
+                    "w360": "611baa1cf4125_w360.jpg"
+                }
+            ],
+            "programs": [9746],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": { "title": "SPONTAN Techpolis", "substitle": null }
+        },
+        "7032": {
+            "name": "Two of You",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [
+                {
+                    "original": "611baa8381acf_original.jpg",
+                    "w360": "611baa8381acf_w360.jpg"
+                }
+            ],
+            "programs": [9747],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": { "title": "SPONTAN Techpolis", "substitle": null }
+        },
+        "7033": {
+            "name": "Chet’s Mood Trio",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9748],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "7034": {
+            "name": "Farkas Zsolt Trio",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9749],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "7035": {
+            "name": "CantoDrum: Ütős énekek",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9750],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "7036": {
+            "name": "Bettika Duo",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9751],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        },
+        "7037": {
+            "name": "RedWhite",
+            "desc": "",
+            "country": "",
+            "rank": 2000,
+            "links": { "spotify": "artistId:" },
+            "images": [],
+            "programs": [9752],
+            "category": 511,
+            "categories": [511],
+            "isDiscoverable": 1,
+            "promoter": {}
+        }
+    },
+    "menus": {},
+    "programs": {
+        "9016": {
+            "performer": 6422,
+            "place": "1165",
+            "startDate": "2021-08-20 00:30:00",
+            "endDate": "2021-08-20 02:00:00",
+            "fulltime": true
+        },
+        "9019": {
+            "performer": 6146,
+            "place": "1163",
+            "startDate": "2021-08-18 22:30:00",
+            "endDate": "2021-08-19 00:00:00",
+            "fulltime": true
+        },
+        "9022": {
+            "performer": 6150,
+            "place": "1163",
+            "startDate": "2021-08-20 18:45:00",
+            "endDate": "2021-08-20 20:00:00",
+            "fulltime": true
+        },
+        "9027": {
+            "performer": 6152,
+            "place": "1163",
+            "startDate": "2021-08-20 20:30:00",
+            "endDate": "2021-08-20 22:00:00",
+            "fulltime": true
+        },
+        "9030": {
+            "performer": 6145,
+            "place": "1163",
+            "startDate": "2021-08-19 22:30:00",
+            "endDate": "2021-08-20 00:00:00",
+            "fulltime": true
+        },
+        "9031": {
+            "performer": 6432,
+            "place": "1165",
+            "startDate": "2021-08-19 17:30:00",
+            "endDate": "2021-08-19 18:45:00",
+            "fulltime": true
+        },
+        "9034": {
+            "performer": 6435,
+            "place": "1163",
+            "startDate": "2021-08-19 17:00:00",
+            "endDate": "2021-08-19 18:15:00",
+            "fulltime": true
+        },
+        "9038": {
+            "performer": 6439,
+            "place": "1165",
+            "startDate": "2021-08-18 23:00:00",
+            "endDate": "2021-08-19 00:30:00",
+            "fulltime": true
+        },
+        "9043": {
+            "performer": 6444,
+            "place": "1165",
+            "startDate": "2021-08-18 21:00:00",
+            "endDate": "2021-08-18 22:30:00",
+            "fulltime": true
+        },
+        "9047": {
+            "performer": 6448,
+            "place": "1165",
+            "startDate": "2021-08-18 19:15:00",
+            "endDate": "2021-08-18 20:30:00",
+            "fulltime": true
+        },
+        "9049": {
+            "performer": 6450,
+            "place": "1165",
+            "startDate": "2021-08-19 21:00:00",
+            "endDate": "2021-08-19 22:30:00",
+            "fulltime": true
+        },
+        "9053": {
+            "performer": 6452,
+            "place": "1165",
+            "startDate": "2021-08-20 21:00:00",
+            "endDate": "2021-08-20 22:30:00",
+            "fulltime": true
+        },
+        "9054": {
+            "performer": 6453,
+            "place": "1165",
+            "startDate": "2021-08-20 19:15:00",
+            "endDate": "2021-08-20 20:30:00",
+            "fulltime": true
+        },
+        "9057": {
+            "performer": 6151,
+            "place": "1163",
+            "startDate": "2021-08-18 18:45:00",
+            "endDate": "2021-08-18 20:00:00",
+            "fulltime": true
+        },
+        "9060": {
+            "performer": 6458,
+            "place": "1165",
+            "startDate": "2021-08-21 00:30:00",
+            "endDate": "2021-08-21 02:00:00",
+            "fulltime": true
+        },
+        "9062": {
+            "performer": 6460,
+            "place": "1165",
+            "startDate": "2021-08-20 23:00:00",
+            "endDate": "2021-08-21 00:30:00",
+            "fulltime": true
+        },
+        "9064": {
+            "performer": 6477,
+            "place": "1165",
+            "startDate": "2021-08-22 19:15:00",
+            "endDate": "2021-08-22 20:30:00",
+            "fulltime": true
+        },
+        "9065": {
+            "performer": 6478,
+            "place": "1165",
+            "startDate": "2021-08-20 16:00:00",
+            "endDate": "2021-08-20 17:00:00",
+            "fulltime": true
+        },
+        "9070": {
+            "performer": 6483,
+            "place": "1165",
+            "startDate": "2021-08-18 16:00:00",
+            "endDate": "2021-08-18 17:00:00",
+            "fulltime": true
+        },
+        "9073": {
+            "performer": 6486,
+            "place": "1165",
+            "startDate": "2021-08-21 17:30:00",
+            "endDate": "2021-08-21 18:45:00",
+            "fulltime": true
+        },
+        "9074": {
+            "performer": 6487,
+            "place": "1165",
+            "startDate": "2021-08-19 16:00:00",
+            "endDate": "2021-08-19 17:00:00",
+            "fulltime": true
+        },
+        "9081": {
+            "performer": 6148,
+            "place": "1163",
+            "startDate": "2021-08-21 20:30:00",
+            "endDate": "2021-08-21 22:00:00",
+            "fulltime": true
+        },
+        "9241": {
+            "performer": 6599,
+            "place": "1163",
+            "startDate": "2021-08-21 17:00:00",
+            "endDate": "2021-08-21 18:15:00",
+            "fulltime": true
+        },
+        "9243": {
+            "performer": 6601,
+            "place": "1165",
+            "startDate": "2021-08-19 23:00:00",
+            "endDate": "2021-08-20 00:30:00",
+            "fulltime": true
+        },
+        "9244": {
+            "performer": 6602,
+            "place": "1163",
+            "startDate": "2021-08-21 18:45:00",
+            "endDate": "2021-08-21 20:00:00",
+            "fulltime": true
+        },
+        "9248": {
+            "performer": 6610,
+            "place": "1165",
+            "startDate": "2021-08-19 14:30:00",
+            "endDate": "2021-08-19 15:30:00",
+            "fulltime": true
+        },
+        "9249": {
+            "performer": 6611,
+            "place": "1165",
+            "startDate": "2021-08-20 14:30:00",
+            "endDate": "2021-08-20 15:30:00",
+            "fulltime": true
+        },
+        "9260": {
+            "performer": 6624,
+            "place": "1163",
+            "startDate": "2021-08-21 22:30:00",
+            "endDate": "2021-08-22 00:00:00",
+            "fulltime": true
+        },
+        "9263": {
+            "performer": 6627,
+            "place": "1165",
+            "startDate": "2021-08-21 16:00:00",
+            "endDate": "2021-08-21 17:00:00",
+            "fulltime": true
+        },
+        "9264": {
+            "performer": 6628,
+            "place": "1163",
+            "startDate": "2021-08-20 22:30:00",
+            "endDate": "2021-08-21 00:00:00",
+            "fulltime": true
+        },
+        "9283": {
+            "performer": 6647,
+            "place": "1163",
+            "startDate": "2021-08-20 15:30:00",
+            "endDate": "2021-08-20 16:30:00",
+            "fulltime": true
+        },
+        "9306": {
+            "performer": 6668,
+            "place": "1163",
+            "startDate": "2021-08-19 15:30:00",
+            "endDate": "2021-08-19 16:30:00",
+            "fulltime": true
+        },
+        "9307": {
+            "performer": 6669,
+            "place": "1163",
+            "startDate": "2021-08-19 18:45:00",
+            "endDate": "2021-08-19 20:00:00",
+            "fulltime": true
+        },
+        "9308": {
+            "performer": 6670,
+            "place": "1165",
+            "startDate": "2021-08-19 19:15:00",
+            "endDate": "2021-08-19 20:30:00",
+            "fulltime": true
+        },
+        "9309": {
+            "performer": 6671,
+            "place": "1165",
+            "startDate": "2021-08-18 17:30:00",
+            "endDate": "2021-08-18 18:45:00",
+            "fulltime": true
+        },
+        "9310": {
+            "performer": 6672,
+            "place": "1165",
+            "startDate": "2021-08-21 21:00:00",
+            "endDate": "2021-08-21 22:30:00",
+            "fulltime": true
+        },
+        "9311": {
+            "performer": 6673,
+            "place": "1165",
+            "startDate": "2021-08-21 23:00:00",
+            "endDate": "2021-08-22 02:00:00",
+            "fulltime": true
+        },
+        "9312": {
+            "performer": 6674,
+            "place": "1165",
+            "startDate": "2021-08-21 19:15:00",
+            "endDate": "2021-08-21 20:30:00",
+            "fulltime": true
+        },
+        "9313": {
+            "performer": 6675,
+            "place": "1165",
+            "startDate": "2021-08-20 17:30:00",
+            "endDate": "2021-08-20 18:45:00",
+            "fulltime": true
+        },
+        "9314": {
+            "performer": 6676,
+            "place": "1163",
+            "startDate": "2021-08-19 20:30:00",
+            "endDate": "2021-08-19 22:00:00",
+            "fulltime": true
+        },
+        "9315": {
+            "performer": 6677,
+            "place": "1163",
+            "startDate": "2021-08-20 17:00:00",
+            "endDate": "2021-08-20 18:15:00",
+            "fulltime": true
+        },
+        "9316": {
+            "performer": 6678,
+            "place": "1165",
+            "startDate": "2021-08-19 00:30:00",
+            "endDate": "2021-08-19 02:00:00",
+            "fulltime": true
+        },
+        "9317": {
+            "performer": 6679,
+            "place": "1163",
+            "startDate": "2021-08-18 17:00:00",
+            "endDate": "2021-08-18 18:15:00",
+            "fulltime": true
+        },
+        "9481": {
+            "performer": 6825,
+            "place": "1165",
+            "startDate": "2021-08-22 17:30:00",
+            "endDate": "2021-08-22 18:45:00",
+            "fulltime": true
+        },
+        "9482": {
+            "performer": 6826,
+            "place": "1165",
+            "startDate": "2021-08-22 11:00:00",
+            "endDate": "2021-08-22 12:00:00",
+            "fulltime": true
+        },
+        "9487": {
+            "performer": 6144,
+            "place": "1163",
+            "startDate": "2021-08-18 20:30:00",
+            "endDate": "2021-08-18 22:00:00",
+            "fulltime": true
+        },
+        "9488": {
+            "performer": 6840,
+            "place": "1163",
+            "startDate": "2021-08-18 15:30:00",
+            "endDate": "2021-08-18 16:30:00",
+            "fulltime": true
+        },
+        "9489": {
+            "performer": 6600,
+            "place": "1163",
+            "startDate": "2021-08-21 15:30:00",
+            "endDate": "2021-08-21 16:30:00",
+            "fulltime": true
+        },
+        "9490": {
+            "performer": 6841,
+            "place": "1165",
+            "startDate": "2021-08-22 21:00:00",
+            "endDate": "2021-08-22 22:30:00",
+            "fulltime": true
+        },
+        "9497": {
+            "performer": 6845,
+            "place": "1165",
+            "startDate": "2021-08-18 14:30:00",
+            "endDate": "2021-08-18 15:30:00",
+            "fulltime": true
+        },
+        "9506": {
+            "performer": 6852,
+            "place": "1165",
+            "startDate": "2021-08-22 15:00:00",
+            "endDate": "2021-08-22 16:00:00",
+            "fulltime": true
+        },
+        "9515": {
+            "performer": 6855,
+            "place": "1163",
+            "startDate": "2021-08-20 22:00:00",
+            "endDate": "2021-08-20 22:30:00",
+            "fulltime": true
+        },
+        "9517": {
+            "performer": 6857,
+            "place": "1165",
+            "startDate": "2021-08-21 15:30:00",
+            "endDate": "2021-08-21 16:00:00",
+            "fulltime": true
+        },
+        "9518": {
+            "performer": 6858,
+            "place": "1358",
+            "startDate": "2021-08-19 11:30:00",
+            "endDate": "2021-08-19 12:30:00",
+            "fulltime": true
+        },
+        "9519": {
+            "performer": 6858,
+            "place": "1358",
+            "startDate": "2021-08-21 11:30:00",
+            "endDate": "2021-08-21 12:30:00",
+            "fulltime": true
+        },
+        "9520": {
+            "performer": 6859,
+            "place": "1358",
+            "startDate": "2021-08-19 13:30:00",
+            "endDate": "2021-08-19 14:30:00",
+            "fulltime": true
+        },
+        "9521": {
+            "performer": 6860,
+            "place": "1358",
+            "startDate": "2021-08-18 14:30:00",
+            "endDate": "2021-08-20 15:30:00",
+            "fulltime": true
+        },
+        "9522": {
+            "performer": 6861,
+            "place": "1358",
+            "startDate": "2021-08-21 13:30:00",
+            "endDate": "2021-08-21 14:30:00",
+            "fulltime": true
+        },
+        "9523": {
+            "performer": 6862,
+            "place": "1358",
+            "startDate": "2021-08-22 13:30:00",
+            "endDate": "2021-08-22 14:30:00",
+            "fulltime": true
+        },
+        "9524": {
+            "performer": 6863,
+            "place": "1358",
+            "startDate": "2021-08-22 14:30:00",
+            "endDate": "2021-08-22 15:30:00",
+            "fulltime": true
+        },
+        "9567": {
+            "performer": 6883,
+            "place": "1166",
+            "startDate": "2021-08-19 00:00:00",
+            "endDate": "2021-08-19 01:00:00",
+            "fulltime": true
+        },
+        "9568": {
+            "performer": 6884,
+            "place": "1166",
+            "startDate": "2021-08-19 01:00:00",
+            "endDate": "2021-08-19 02:00:00",
+            "fulltime": true
+        },
+        "9569": {
+            "performer": 6885,
+            "place": "1166",
+            "startDate": "2021-08-20 01:00:00",
+            "endDate": "2021-08-20 02:00:00",
+            "fulltime": true
+        },
+        "9570": {
+            "performer": 6886,
+            "place": "1166",
+            "startDate": "2021-08-21 00:00:00",
+            "endDate": "2021-08-21 01:00:00",
+            "fulltime": true
+        },
+        "9571": {
+            "performer": 6887,
+            "place": "1166",
+            "startDate": "2021-08-20 00:00:00",
+            "endDate": "2021-08-20 01:00:00",
+            "fulltime": true
+        },
+        "9572": {
+            "performer": 6888,
+            "place": "1166",
+            "startDate": "2021-08-21 01:00:00",
+            "endDate": "2021-08-21 02:00:00",
+            "fulltime": true
+        },
+        "9573": {
+            "performer": 6889,
+            "place": "1166",
+            "startDate": "2021-08-22 00:00:00",
+            "endDate": "2021-08-22 01:00:00",
+            "fulltime": true
+        },
+        "9574": {
+            "performer": 6890,
+            "place": "1166",
+            "startDate": "2021-08-22 01:00:00",
+            "endDate": "2021-08-22 02:00:00",
+            "fulltime": true
+        },
+        "9585": {
+            "performer": 6899,
+            "place": "1166",
+            "startDate": "2021-08-22 21:00:00",
+            "endDate": "2021-08-22 22:00:00",
+            "fulltime": true
+        },
+        "9586": {
+            "performer": 6900,
+            "place": "1165",
+            "startDate": "2021-08-22 22:30:00",
+            "endDate": "2021-08-23 01:00:00",
+            "fulltime": true
+        },
+        "9587": {
+            "performer": 6901,
+            "place": "1358",
+            "startDate": "2021-08-20 11:30:00",
+            "endDate": "2021-08-20 12:30:00",
+            "fulltime": true
+        },
+        "9588": {
+            "performer": 6902,
+            "place": "1358",
+            "startDate": "2021-08-20 13:30:00",
+            "endDate": "2021-08-20 14:30:00",
+            "fulltime": true
+        },
+        "9589": {
+            "performer": 6903,
+            "place": "1358",
+            "startDate": "2021-08-21 12:30:00",
+            "endDate": "2021-08-21 13:30:00",
+            "fulltime": true
+        },
+        "9590": {
+            "performer": 6904,
+            "place": "1358",
+            "startDate": "2021-08-22 12:30:00",
+            "endDate": "2021-08-22 13:30:00",
+            "fulltime": true
+        },
+        "9597": {
+            "performer": 6909,
+            "place": "1360",
+            "startDate": "2021-08-19 02:00:00",
+            "endDate": "2021-08-19 04:00:00",
+            "fulltime": true
+        },
+        "9598": {
+            "performer": 6909,
+            "place": "1360",
+            "startDate": "2021-08-21 02:00:00",
+            "endDate": "2021-08-21 04:00:00",
+            "fulltime": true
+        },
+        "9599": {
+            "performer": 6910,
+            "place": "1360",
+            "startDate": "2021-08-20 02:00:00",
+            "endDate": "2021-08-20 04:00:00",
+            "fulltime": true
+        },
+        "9600": {
+            "performer": 6911,
+            "place": "1360",
+            "startDate": "2021-08-22 02:00:00",
+            "endDate": "2021-08-22 04:00:00",
+            "fulltime": true
+        },
+        "9613": {
+            "performer": 6916,
+            "place": "1364",
+            "startDate": "2021-08-19 12:00:00",
+            "endDate": "2021-08-19 18:00:00",
+            "fulltime": true
+        },
+        "9614": {
+            "performer": 6917,
+            "place": "1364",
+            "startDate": "2021-08-20 12:00:00",
+            "endDate": "2021-08-20 18:00:00",
+            "fulltime": true
+        },
+        "9615": {
+            "performer": 6918,
+            "place": "1364",
+            "startDate": "2021-08-21 12:00:00",
+            "endDate": "2021-08-21 18:00:00",
+            "fulltime": true
+        },
+        "9616": {
+            "performer": 6919,
+            "place": "1364",
+            "startDate": "2021-08-22 12:00:00",
+            "endDate": "2021-08-22 18:00:00",
+            "fulltime": true
+        },
+        "9626": {
+            "performer": 6925,
+            "place": "1365",
+            "startDate": "2021-08-18 12:00:00",
+            "endDate": "2021-08-18 16:00:00",
+            "fulltime": true
+        },
+        "9627": {
+            "performer": 6925,
+            "place": "1365",
+            "startDate": "2021-08-19 12:00:00",
+            "endDate": "2021-08-19 16:00:00",
+            "fulltime": true
+        },
+        "9628": {
+            "performer": 6925,
+            "place": "1365",
+            "startDate": "2021-08-20 12:00:00",
+            "endDate": "2021-08-20 16:00:00",
+            "fulltime": true
+        },
+        "9629": {
+            "performer": 6925,
+            "place": "1365",
+            "startDate": "2021-08-21 12:00:00",
+            "endDate": "2021-08-21 16:00:00",
+            "fulltime": true
+        },
+        "9630": {
+            "performer": 6925,
+            "place": "1365",
+            "startDate": "2021-08-22 12:00:00",
+            "endDate": "2021-08-22 16:00:00",
+            "fulltime": true
+        },
+        "9631": {
+            "performer": 6926,
+            "place": "1366",
+            "startDate": "2021-08-18 14:00:00",
+            "endDate": "2021-08-18 18:00:00",
+            "fulltime": true
+        },
+        "9632": {
+            "performer": 6926,
+            "place": "1366",
+            "startDate": "2021-08-19 12:00:00",
+            "endDate": "2021-08-19 19:00:00",
+            "fulltime": true
+        },
+        "9633": {
+            "performer": 6926,
+            "place": "1366",
+            "startDate": "2021-08-20 12:00:00",
+            "endDate": "2021-08-20 19:00:00",
+            "fulltime": true
+        },
+        "9634": {
+            "performer": 6926,
+            "place": "1366",
+            "startDate": "2021-08-21 12:00:00",
+            "endDate": "2021-08-21 19:00:00",
+            "fulltime": true
+        },
+        "9635": {
+            "performer": 6926,
+            "place": "1366",
+            "startDate": "2021-08-22 12:00:00",
+            "endDate": "2021-08-22 19:00:00",
+            "fulltime": true
+        },
+        "9641": {
+            "performer": 6928,
+            "place": "1367",
+            "startDate": "2021-08-18 16:30:00",
+            "endDate": "2021-08-18 17:00:00",
+            "fulltime": true
+        },
+        "9642": {
+            "performer": 6929,
+            "place": "1367",
+            "startDate": "2021-08-19 16:30:00",
+            "endDate": "2021-08-19 17:00:00",
+            "fulltime": true
+        },
+        "9643": {
+            "performer": 6930,
+            "place": "1367",
+            "startDate": "2021-08-20 16:30:00",
+            "endDate": "2021-08-20 17:00:00",
+            "fulltime": true
+        },
+        "9644": {
+            "performer": 6931,
+            "place": "1367",
+            "startDate": "2021-08-21 16:30:00",
+            "endDate": "2021-08-21 17:00:00",
+            "fulltime": true
+        },
+        "9645": {
+            "performer": 6932,
+            "place": "1367",
+            "startDate": "2021-08-22 16:30:00",
+            "endDate": "2021-08-22 17:00:00",
+            "fulltime": true
+        },
+        "9652": {
+            "performer": 6951,
+            "place": "1372",
+            "startDate": "2021-08-18 23:00:00",
+            "endDate": "2021-08-19 04:00:00",
+            "fulltime": true
+        },
+        "9653": {
+            "performer": 6952,
+            "place": "1372",
+            "startDate": "2021-08-19 14:00:00",
+            "endDate": "2021-08-19 17:00:00",
+            "fulltime": true
+        },
+        "9654": {
+            "performer": 6953,
+            "place": "1372",
+            "startDate": "2021-08-19 17:00:00",
+            "endDate": "2021-08-19 20:00:00",
+            "fulltime": true
+        },
+        "9655": {
+            "performer": 6910,
+            "place": "1372",
+            "startDate": "2021-08-19 20:00:00",
+            "endDate": "2021-08-19 23:00:00",
+            "fulltime": true
+        },
+        "9656": {
+            "performer": 6954,
+            "place": "1372",
+            "startDate": "2021-08-19 23:00:00",
+            "endDate": "2021-08-20 01:00:00",
+            "fulltime": true
+        },
+        "9657": {
+            "performer": 6955,
+            "place": "1372",
+            "startDate": "2021-08-20 01:00:00",
+            "endDate": "2021-08-20 04:00:00",
+            "fulltime": true
+        },
+        "9658": {
+            "performer": 6956,
+            "place": "1372",
+            "startDate": "2021-08-20 14:00:00",
+            "endDate": "2021-08-20 17:00:00",
+            "fulltime": true
+        },
+        "9659": {
+            "performer": 6957,
+            "place": "1372",
+            "startDate": "2021-08-20 17:00:00",
+            "endDate": "2021-08-20 20:00:00",
+            "fulltime": true
+        },
+        "9661": {
+            "performer": 6959,
+            "place": "1372",
+            "startDate": "2021-08-21 14:00:00",
+            "endDate": "2021-08-21 17:00:00",
+            "fulltime": true
+        },
+        "9662": {
+            "performer": 6960,
+            "place": "1372",
+            "startDate": "2021-08-21 17:00:00",
+            "endDate": "2021-08-21 20:00:00",
+            "fulltime": true
+        },
+        "9663": {
+            "performer": 6961,
+            "place": "1372",
+            "startDate": "2021-08-21 20:00:00",
+            "endDate": "2021-08-21 23:00:00",
+            "fulltime": true
+        },
+        "9664": {
+            "performer": 6962,
+            "place": "1372",
+            "startDate": "2021-08-21 23:00:00",
+            "endDate": "2021-08-22 04:00:00",
+            "fulltime": true
+        },
+        "9677": {
+            "performer": 6974,
+            "place": "1173",
+            "startDate": "2021-08-19 00:00:00",
+            "endDate": "2021-08-19 01:00:00",
+            "fulltime": true
+        },
+        "9678": {
+            "performer": 6974,
+            "place": "1173",
+            "startDate": "2021-08-19 02:00:00",
+            "endDate": "2021-08-19 03:00:00",
+            "fulltime": true
+        },
+        "9679": {
+            "performer": 6975,
+            "place": "1173",
+            "startDate": "2021-08-19 01:00:00",
+            "endDate": "2021-08-19 02:00:00",
+            "fulltime": true
+        },
+        "9680": {
+            "performer": 6976,
+            "place": "1173",
+            "startDate": "2021-08-19 02:30:00",
+            "endDate": "2021-08-19 04:00:00",
+            "fulltime": true
+        },
+        "9681": {
+            "performer": 6977,
+            "place": "1173",
+            "startDate": "2021-08-20 00:00:00",
+            "endDate": "2021-08-20 01:00:00",
+            "fulltime": true
+        },
+        "9682": {
+            "performer": 6978,
+            "place": "1173",
+            "startDate": "2021-08-20 01:00:00",
+            "endDate": "2021-08-20 02:30:00",
+            "fulltime": true
+        },
+        "9683": {
+            "performer": 6979,
+            "place": "1173",
+            "startDate": "2021-08-20 02:30:00",
+            "endDate": "2021-08-20 04:00:00",
+            "fulltime": true
+        },
+        "9684": {
+            "performer": 6980,
+            "place": "1173",
+            "startDate": "2021-08-21 00:00:00",
+            "endDate": "2021-08-21 01:30:00",
+            "fulltime": true
+        },
+        "9685": {
+            "performer": 6981,
+            "place": "1173",
+            "startDate": "2021-08-21 01:30:00",
+            "endDate": "2021-08-21 03:00:00",
+            "fulltime": true
+        },
+        "9686": {
+            "performer": 6982,
+            "place": "1173",
+            "startDate": "2021-08-21 03:00:00",
+            "endDate": "2021-08-21 04:00:00",
+            "fulltime": true
+        },
+        "9687": {
+            "performer": 6983,
+            "place": "1173",
+            "startDate": "2021-08-22 00:00:00",
+            "endDate": "2021-08-22 00:30:00",
+            "fulltime": true
+        },
+        "9688": {
+            "performer": 6983,
+            "place": "1173",
+            "startDate": "2021-08-22 01:30:00",
+            "endDate": "2021-08-22 02:30:00",
+            "fulltime": true
+        },
+        "9689": {
+            "performer": 6984,
+            "place": "1173",
+            "startDate": "2021-08-22 00:30:00",
+            "endDate": "2021-08-22 01:30:00",
+            "fulltime": true
+        },
+        "9690": {
+            "performer": 6985,
+            "place": "1173",
+            "startDate": "2021-08-22 02:30:00",
+            "endDate": "2021-08-22 04:00:00",
+            "fulltime": true
+        },
+        "9691": {
+            "performer": 6986,
+            "place": "1173",
+            "startDate": "2021-08-22 16:00:00",
+            "endDate": "2021-08-22 19:00:00",
+            "fulltime": true
+        },
+        "9692": {
+            "performer": 6986,
+            "place": "1173",
+            "startDate": "2021-08-22 21:00:00",
+            "endDate": "2021-08-22 22:00:00",
+            "fulltime": true
+        },
+        "9693": {
+            "performer": 6986,
+            "place": "1173",
+            "startDate": "2021-08-23 00:00:00",
+            "endDate": "2021-08-23 02:00:00",
+            "fulltime": true
+        },
+        "9694": {
+            "performer": 6987,
+            "place": "1173",
+            "startDate": "2021-08-22 19:00:00",
+            "endDate": "2021-08-22 21:00:00",
+            "fulltime": true
+        },
+        "9711": {
+            "performer": 7002,
+            "place": "1173",
+            "startDate": "2021-08-22 22:00:00",
+            "endDate": "2021-08-23 00:00:00",
+            "fulltime": true
+        },
+        "9712": {
+            "performer": 7005,
+            "place": "1372",
+            "startDate": "2021-08-22 14:00:00",
+            "endDate": "2021-08-22 16:30:00",
+            "fulltime": true
+        },
+        "9714": {
+            "performer": 7006,
+            "place": "1372",
+            "startDate": "2021-08-22 16:30:00",
+            "endDate": "2021-08-22 19:00:00",
+            "fulltime": true
+        },
+        "9715": {
+            "performer": 7007,
+            "place": "1372",
+            "startDate": "2021-08-22 19:00:00",
+            "endDate": "2021-08-22 21:00:00",
+            "fulltime": true
+        },
+        "9716": {
+            "performer": 7008,
+            "place": "1372",
+            "startDate": "2021-08-22 21:00:00",
+            "endDate": "2021-08-22 23:00:00",
+            "fulltime": true
+        },
+        "9717": {
+            "performer": 7009,
+            "place": "1372",
+            "startDate": "2021-08-22 23:00:00",
+            "endDate": "2021-08-23 01:00:00",
+            "fulltime": true
+        },
+        "9718": {
+            "performer": 7010,
+            "place": "1372",
+            "startDate": "2021-08-23 01:00:00",
+            "endDate": "2021-08-23 03:00:00",
+            "fulltime": true
+        },
+        "9727": {
+            "performer": 7013,
+            "place": "1358",
+            "startDate": "2021-08-20 12:30:00",
+            "endDate": "2021-08-20 13:30:00",
+            "fulltime": true
+        },
+        "9728": {
+            "performer": 7014,
+            "place": "1358",
+            "startDate": "2021-08-18 15:30:00",
+            "endDate": "2021-08-18 16:30:00",
+            "fulltime": true
+        },
+        "9729": {
+            "performer": 7015,
+            "place": "1358",
+            "startDate": "2021-08-19 14:30:00",
+            "endDate": "2021-08-19 15:30:00",
+            "fulltime": true
+        },
+        "9730": {
+            "performer": 7016,
+            "place": "1358",
+            "startDate": "2021-08-20 14:30:00",
+            "endDate": "2021-08-20 15:30:00",
+            "fulltime": true
+        },
+        "9731": {
+            "performer": 7017,
+            "place": "1358",
+            "startDate": "2021-08-21 14:30:00",
+            "endDate": "2021-08-21 15:30:00",
+            "fulltime": true
+        },
+        "9732": {
+            "performer": 7018,
+            "place": "1358",
+            "startDate": "2021-08-22 15:30:00",
+            "endDate": "2021-08-22 16:30:00",
+            "fulltime": true
+        },
+        "9738": {
+            "performer": 7024,
+            "place": "1372",
+            "startDate": "2021-08-18 14:00:00",
+            "endDate": "2021-08-18 15:30:00",
+            "fulltime": true
+        },
+        "9739": {
+            "performer": 7025,
+            "place": "1372",
+            "startDate": "2021-08-18 15:30:00",
+            "endDate": "2021-08-18 17:00:00",
+            "fulltime": true
+        },
+        "9740": {
+            "performer": 7026,
+            "place": "1372",
+            "startDate": "2021-08-18 17:00:00",
+            "endDate": "2021-08-18 19:00:00",
+            "fulltime": true
+        },
+        "9741": {
+            "performer": 7027,
+            "place": "1372",
+            "startDate": "2021-08-18 19:00:00",
+            "endDate": "2021-08-18 21:00:00",
+            "fulltime": true
+        },
+        "9742": {
+            "performer": 7024,
+            "place": "1372",
+            "startDate": "2021-08-18 21:00:00",
+            "endDate": "2021-08-18 23:00:00",
+            "fulltime": true
+        },
+        "9743": {
+            "performer": 7028,
+            "place": "1372",
+            "startDate": "2021-08-21 03:00:00",
+            "endDate": "2021-08-21 05:00:00",
+            "fulltime": true
+        },
+        "9744": {
+            "performer": 7029,
+            "place": "1372",
+            "startDate": "2021-08-20 20:00:00",
+            "endDate": "2021-08-20 21:30:00",
+            "fulltime": true
+        },
+        "9745": {
+            "performer": 7030,
+            "place": "1372",
+            "startDate": "2021-08-20 21:30:00",
+            "endDate": "2021-08-20 23:00:00",
+            "fulltime": true
+        },
+        "9746": {
+            "performer": 7031,
+            "place": "1372",
+            "startDate": "2021-08-20 23:00:00",
+            "endDate": "2021-08-21 01:00:00",
+            "fulltime": true
+        },
+        "9747": {
+            "performer": 7032,
+            "place": "1372",
+            "startDate": "2021-08-21 01:00:00",
+            "endDate": "2021-08-21 03:00:00",
+            "fulltime": true
+        },
+        "9748": {
+            "performer": 7033,
+            "place": "1358",
+            "startDate": "2021-08-18 16:30:00",
+            "endDate": "2021-08-18 17:30:00",
+            "fulltime": true
+        },
+        "9749": {
+            "performer": 7034,
+            "place": "1358",
+            "startDate": "2021-08-19 16:30:00",
+            "endDate": "2021-08-19 17:30:00",
+            "fulltime": true
+        },
+        "9750": {
+            "performer": 7035,
+            "place": "1358",
+            "startDate": "2021-08-20 16:30:00",
+            "endDate": "2021-08-20 17:30:00",
+            "fulltime": true
+        },
+        "9751": {
+            "performer": 7036,
+            "place": "1358",
+            "startDate": "2021-08-21 16:30:00",
+            "endDate": "2021-08-21 17:30:00",
+            "fulltime": true
+        },
+        "9752": {
+            "performer": 7037,
+            "place": "1358",
+            "startDate": "2021-08-22 16:30:00",
+            "endDate": "2021-08-22 17:30:00",
+            "fulltime": true
+        }
+    },
+    "places": {
+        "1163": {
+            "title": "MOL-Petőfi Rádió Nagyszínpad",
+            "desc": "",
+            "lead": "",
+            "programs": [
+                9019, 9022, 9027, 9030, 9034, 9057, 9081, 9241, 9244, 9260, 9264, 9283,
+                9306, 9307, 9314, 9315, 9317, 9487, 9488, 9489, 9515
+            ],
+            "images": [],
+            "rank": 1
+        },
+        "1164": {
+            "title": "",
+            "desc": "",
+            "lead": "",
+            "programs": [],
+            "images": [],
+            "rank": 2
+        },
+        "1165": {
+            "title": "Telekom Kraft Színpad",
+            "desc": "",
+            "lead": "",
+            "programs": [
+                9016, 9031, 9038, 9043, 9047, 9049, 9053, 9054, 9060, 9062, 9064, 9065,
+                9070, 9073, 9074, 9243, 9248, 9249, 9263, 9308, 9309, 9310, 9311, 9312,
+                9313, 9316, 9481, 9482, 9490, 9497, 9506, 9517, 9586
+            ],
+            "images": [],
+            "rank": 3
+        },
+        "1166": {
+            "title": "A Petőfi Rádió bemutatja: TÁBORTŰZ -  Járai Márkkal",
+            "desc": "",
+            "lead": "",
+            "programs": [9567, 9568, 9569, 9570, 9571, 9572, 9573, 9574, 9585],
+            "images": [],
+            "rank": 4
+        },
+        "1167": {
+            "title": "BORSODI SZÍNPAD",
+            "desc": "",
+            "lead": "",
+            "programs": [],
+            "images": [],
+            "rank": 4
+        },
+        "1168": {
+            "title": "MOL NAGYON BALATON TERASZ",
+            "desc": "",
+            "lead": "",
+            "programs": [],
+            "images": [],
+            "rank": 8
+        },
+        "1169": {
+            "title": "Diákhitel Kávézó",
+            "desc": "",
+            "lead": "",
+            "programs": [],
+            "images": [],
+            "rank": 6
+        },
+        "1170": {
+            "title": "Kertmozi Tillával",
+            "desc": "",
+            "lead": "",
+            "programs": [],
+            "images": [],
+            "rank": 13
+        },
+        "1171": {
+            "title": "Petőfi Part",
+            "desc": "",
+            "lead": "",
+            "programs": [],
+            "images": [],
+            "rank": 9
+        },
+        "1172": {
+            "title": "Petőfi Piramis",
+            "desc": "",
+            "lead": "",
+            "programs": [],
+            "images": [],
+            "rank": 10
+        },
+        "1173": {
+            "title": "Ballantine's True Music Stage",
+            "desc": "",
+            "lead": "",
+            "programs": [
+                9677, 9678, 9679, 9680, 9681, 9682, 9683, 9684, 9685, 9686, 9687, 9688,
+                9689, 9690, 9691, 9692, 9693, 9694, 9711
+            ],
+            "images": [],
+            "rank": 9
+        },
+        "1174": {
+            "title": "Borsodi Malátabár",
+            "desc": "<p>Ugorj be a Malátabárba, és guríts le velünk egy Borsodit! Vagy kettőt.</p><p>Mi minden vár még rád a sörözés mellett? Nappal nyugizás a haverokkal, este ütemes bólogatás az DJ-k zenéjére, éjjel-nappal pedig Instagram-kompatibilis kilátás a Balatonra. Ha pedig átmozgatnád kicsit az elgémberedett végtagokat, akkor irány a jó öreg dartsfoci. Ugorjatok be, jó lesz. De tényleg. </p>",
+            "lead": "",
+            "programs": [],
+            "images": [],
+            "rank": 12
+        },
+        "1358": {
+            "title": "STRAND KÁVÉHÁZ AZ INDEX TÁMOGATÁSÁVAL",
+            "desc": "",
+            "lead": "",
+            "programs": [
+                9518, 9519, 9520, 9521, 9522, 9523, 9524, 9587, 9588, 9589, 9590, 9727,
+                9728, 9729, 9730, 9731, 9732, 9748, 9749, 9750, 9751, 9752
+            ],
+            "images": [],
+            "rank": 4
+        },
+        "1360": {
+            "title": "Telekom VIP",
+            "desc": "",
+            "lead": "",
+            "programs": [9597, 9598, 9599, 9600],
+            "images": [],
+            "rank": 7
+        },
+        "1361": {
+            "title": "MOL VIP",
+            "desc": "",
+            "lead": "",
+            "programs": [],
+            "images": [],
+            "rank": 6
+        },
+        "1364": {
+            "title": "Hide The Pain Harold Negyed / STRAND Kaland",
+            "desc": "",
+            "lead": "",
+            "programs": [9613, 9614, 9615, 9616],
+            "images": [],
+            "rank": 13
+        },
+        "1365": {
+            "title": "Hide The Pain Harold Negyed / Vízi Dili",
+            "desc": "",
+            "lead": "",
+            "programs": [9626, 9627, 9628, 9629, 9630],
+            "images": [],
+            "rank": 14
+        },
+        "1366": {
+            "title": "Hide The Pain Harold Negyed / Játszóház projekt",
+            "desc": "",
+            "lead": "",
+            "programs": [9631, 9632, 9633, 9634, 9635],
+            "images": [],
+            "rank": 15
+        },
+        "1367": {
+            "title": "Hide The Pain Harold Negyed / Óriás csaták",
+            "desc": "",
+            "lead": "",
+            "programs": [9641, 9642, 9643, 9644, 9645],
+            "images": [],
+            "rank": 16
+        },
+        "1372": {
+            "title": "MEISTER ZONE BY JAGERMEISTER",
+            "desc": "",
+            "lead": "",
+            "programs": [
+                9652, 9653, 9654, 9655, 9656, 9657, 9658, 9659, 9661, 9662, 9663, 9664,
+                9712, 9714, 9715, 9716, 9717, 9718, 9738, 9739, 9740, 9741, 9742, 9743,
+                9744, 9745, 9746, 9747
+            ],
+            "images": [],
+            "rank": 8
+        }
+    },
+    "categories": {
+        "511": { "title": "ZENE" },
+        "512": { "title": "NAPPALI PROGRAMOK" },
+        "515": { "title": "NAPI CSATÁK" },
+        "516": { "title": "NAGY STRAND KALAND" }
+    },
+    "menuscategories": {},
+    "days": {
+        "2021-08-18": {
+            "weekday": "szerda",
+            "month": "aug",
+            "day": "18",
+            "fake": 0
+        },
+        "2021-08-19": {
+            "weekday": "csütörtök",
+            "month": "aug",
+            "day": "19",
+            "fake": 0
+        },
+        "2021-08-20": {
+            "weekday": "péntek",
+            "month": "aug",
+            "day": "20",
+            "fake": 0
+        },
+        "2021-08-21": {
+            "weekday": "szombat",
+            "month": "aug",
+            "day": "21",
+            "fake": 0
+        },
+        "2021-08-22": {
+            "weekday": "vasárnap",
+            "month": "aug",
+            "day": "22",
+            "fake": 0
+        },
+        "2021-08-23": { "weekday": "hétfő", "month": "aug", "day": "23", "fake": 1 }
+    },
+    "flags": ["novenuesmenu"]
+}

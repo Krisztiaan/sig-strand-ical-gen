@@ -1,8 +1,9 @@
-import strandData from "../strand-fesztival-2019-hu.json";
-import ical from "ical-generator";
+import strandData from "./strand-festival-2020-hu.json";
+import ical, { ICalCalendarMethod } from "ical-generator";
 import moment from "moment-timezone";
 import fetch from "node-fetch";
 import { IncomingMessage, ServerResponse } from "http";
+import { RequestHandler } from "express";
 
 let hits = 0;
 let reqs = [];
@@ -40,7 +41,7 @@ const indexHtml = () =>
     top: 1px;
   }
 </style>
-<h2>Strand 2019 iCal v1 (${hits++})</h2>
+<h2>Strand 2021 iCal v1 (${hits++})</h2>
 <br/>
 <a href="./zene" class="myButton">zene</a>
 <br/>
@@ -77,15 +78,14 @@ const mc: { [key: string]: typeof strandData } = { "2021-08-18": strandData };
 const handleStrandJson = (
   parsedBody: typeof strandData,
   category: keyof typeof cMap,
-  req: IncomingMessage,
-  res: ServerResponse
+  url: string
 ) => {
   const cal = ical({
-    domain: `strand.perpixel.io${req.url}`,
-    name: `Strand Fesztivál 2019 - ${
+    url: `strand.perpixel.io${url}`,
+    name: `Strand Fesztivál 2021 - ${
       parsedBody.categories[cMap[category]].title
     }`,
-    method: "REFRESH",
+    method: ICalCalendarMethod.REFRESH,
   });
 
   const programs = Object.values(strandData.programs);
@@ -122,45 +122,17 @@ const handleStrandJson = (
         .replace(/<br\s*\/?>/gm, "\n")
         .replace(/<p\s*\/?>/gm, "")
         .replace(/<\/p\s*\/?>/gm, ""),
-      htmlDescription: p.performer.desc,
       location: p.place.title,
     })
   );
 
-  if (category === "civil") {
-    const performers = Object.entries(strandData.performers);
-
-    const linkedPerformers: { [key: string]: boolean } = {};
-    programs.forEach((p) => {
-      linkedPerformers[p.performer] = true;
-    });
-
-    performers.forEach(([k, p]) => {
-      if (!linkedPerformers[k]) {
-        cal.createEvent({
-          start: moment.tz("2019-08-20", "Europe/Budapest").utc(),
-          end: moment.tz("2019-08-24", "Europe/Budapest").utc(),
-          allDay: true,
-          summary: p.name,
-          description: p.desc
-            .replace(/<br\s*\/?>/gm, "\n")
-            .replace(/<p\s*\/?>/gm, "")
-            .replace(/<\/p\s*\/?>/gm, ""),
-          htmlDescription: p.desc,
-          location: "Civil / egyéb",
-        });
-      }
-    });
-  }
-  console.log(req.url);
-  cal.serve(res);
-  // res.write(cal.toString());
+  return cal;
 };
 
 const isValidCategory = (category: string): category is keyof typeof cMap =>
   category in cMap;
 
-const handler = async (req: IncomingMessage, res: ServerResponse) => {
+const handler: RequestHandler = async (req, res) => {
   reqs.push({ url: req.url, meta: req.headers });
   const urlParts = req.url.split("/");
   const category = urlParts[urlParts.length - 1];
@@ -184,10 +156,11 @@ const handler = async (req: IncomingMessage, res: ServerResponse) => {
       mc[currDate] ||
       ((await (
         await fetch(
-          `https://widget.szigetfestival.com/data/strand-fesztival-2019-hu.json?d=${currDate}`
+          `https://widget.szigetfestival.com/data/strand-fesztival-2021-hu.json?d=${currDate}`
         )
       ).json()) as typeof strandData);
-    handleStrandJson(mc[currDate], category, req, res);
+    const cal = handleStrandJson(mc[currDate], category, req.url);
+    cal.serve(res);
   } catch (e) {
     console.error(e);
     res.write(JSON.stringify(e));

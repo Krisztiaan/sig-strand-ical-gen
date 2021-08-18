@@ -8,7 +8,11 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "inlineSourceMap": false,
-    "inlineSources": false
+    "inlineSources": false,
+    "rootDir": ".",
+    "outDir": "./dist",
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true
   },
-  "files": ["src/index.ts", "src/cal.ts"]
+  "exclude": ["./dist"]
 }
