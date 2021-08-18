@@ -66,14 +66,13 @@ a 'civil' naptár más eseményeket is tartalmazhat 😅
 `.trim();
 
 const cMap = {
-  zene: 368,
-  nappal: 369,
-  civil: 370,
-  csata: 372,
-  kaland: 373
+  zene: 511,
+  nappal: 512,
+  csata: 515,
+  kaland: 516,
 };
 
-const mc: { [key: string]: typeof strandData } = { "2019-08-15": strandData };
+const mc: { [key: string]: typeof strandData } = { "2021-08-18": strandData };
 
 const handleStrandJson = (
   parsedBody: typeof strandData,
@@ -86,34 +85,35 @@ const handleStrandJson = (
     name: `Strand Fesztivál 2019 - ${
       parsedBody.categories[cMap[category]].title
     }`,
-    method: "REFRESH"
+    method: "REFRESH",
   });
 
   const programs = Object.values(strandData.programs);
 
-  const fullPrograms = programs.map(program => ({
+  const fullPrograms = programs.map((program) => ({
     ...program,
     performer: {
       ...(strandData.performers[
         program.performer as any
       ] as typeof strandData.performers[keyof typeof strandData.performers]),
-      desc: (strandData.performers[
-        program.performer as any
-      ] as typeof strandData.performers[keyof typeof strandData.performers])
-        .desc
+      desc: (
+        strandData.performers[
+          program.performer as any
+        ] as typeof strandData.performers[keyof typeof strandData.performers]
+      ).desc,
     },
     place:
       program.place == "0"
         ? { title: "Ismeretlen" }
         : (strandData.places[
             program.place as any
-          ] as typeof strandData.places[keyof typeof strandData.places])
+          ] as typeof strandData.places[keyof typeof strandData.places]),
   }));
   const fullProgramsFiltered = fullPrograms.filter(
-    ep => ep.performer.category == cMap[category]
+    (ep) => ep.performer.category == cMap[category]
   );
 
-  fullProgramsFiltered.forEach(p =>
+  fullProgramsFiltered.forEach((p) =>
     cal.createEvent({
       start: moment.tz(p.startDate, "Europe/Budapest").utc(),
       end: moment.tz(p.endDate, "Europe/Budapest").utc(),
@@ -123,7 +123,7 @@ const handleStrandJson = (
         .replace(/<p\s*\/?>/gm, "")
         .replace(/<\/p\s*\/?>/gm, ""),
       htmlDescription: p.performer.desc,
-      location: p.place.title
+      location: p.place.title,
     })
   );
 
@@ -131,7 +131,7 @@ const handleStrandJson = (
     const performers = Object.entries(strandData.performers);
 
     const linkedPerformers: { [key: string]: boolean } = {};
-    programs.forEach(p => {
+    programs.forEach((p) => {
       linkedPerformers[p.performer] = true;
     });
 
@@ -147,7 +147,7 @@ const handleStrandJson = (
             .replace(/<p\s*\/?>/gm, "")
             .replace(/<\/p\s*\/?>/gm, ""),
           htmlDescription: p.desc,
-          location: "Civil / egyéb"
+          location: "Civil / egyéb",
         });
       }
     });
@@ -182,9 +182,11 @@ const handler = async (req: IncomingMessage, res: ServerResponse) => {
   try {
     mc[currDate] =
       mc[currDate] ||
-      ((await (await fetch(
-        `https://widget.szigetfestival.com/data/strand-fesztival-2019-hu.json?d=${currDate}`
-      )).json()) as typeof strandData);
+      ((await (
+        await fetch(
+          `https://widget.szigetfestival.com/data/strand-fesztival-2019-hu.json?d=${currDate}`
+        )
+      ).json()) as typeof strandData);
     handleStrandJson(mc[currDate], category, req, res);
   } catch (e) {
     console.error(e);

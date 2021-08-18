@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "ES2016",
-    "lib": ["es2015"],
+    "target": "esnext",
+    // "lib": ["esnext"],
     "module": "commonjs",
     "removeComments": true,
     "sourceMap": false,
