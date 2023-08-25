@@ -1,7 +1,11 @@
 "use strict";
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
-    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
 }) : (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     o[k2] = m[k];
@@ -22,12 +26,16 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const strand_festival_2020_hu_json_1 = __importDefault(require("./strand-festival-2020-hu.json"));
+const strand_festival_2023_hu_json_1 = __importDefault(require("./strand-festival-2023-hu.json"));
 const ical_generator_1 = __importStar(require("ical-generator"));
 const moment_timezone_1 = __importDefault(require("moment-timezone"));
 const node_fetch_1 = __importDefault(require("node-fetch"));
 let hits = 0;
 let reqs = [];
+const cMap = Object.entries(strand_festival_2023_hu_json_1.default.categories).reduce((acc, [k, v]) => {
+    acc[parseInt(k, 10)] = v.title;
+    return acc;
+}, {});
 const indexHtml = () => `
 <style>
   body {
@@ -60,55 +68,39 @@ const indexHtml = () => `
     top: 1px;
   }
 </style>
-<h2>Strand 2021 iCal v1 (${hits++})</h2>
+<h2>Strand 2023 iCal v1.5 (${hits++})</h2>
 <br/>
-<a href="./zene" class="myButton">zene</a>
-<br/>
-<a href="./nappal" class="myButton">nappal</a>
-<br/>
-<a href="./civil" class="myButton">civil * **</a>
-<br/>
-<a href="./csata" class="myButton">csata</a>
-<br/>
-<a href="./kaland" class="myButton">kaland</a>
-<br/>
-<br/>
-<i>* A Strand által szolgáltatott file miatt
-a 'civil' naptár más eseményeket is tartalmazhat 😅
-<br/>
-** Ezekhez a programokhoz nem adtak meg időpontokat,
-így egész naposként kerülnek a fesztivál teljes idejére a naptárba</i>
+${Object.entries(cMap)
+    .map(([k, v]) => `<a href="${k}" class="myButton">${v}</a>`)
+    .join("<br/>")}
 <br/>
 <br/>
 <b>Tipp:</b> új naptárként add hozzá, ne már létezőhöz, hogy ne keveredjen minden össze
 <br/>
 <b>Tipp:</b> a Google Calendar, és az Apple Calendar is el tudja rejteni az egyes naptárakat
 `.trim();
-const cMap = {
-    zene: 511,
-    nappal: 512,
-    csata: 515,
-    kaland: 516,
-};
-const mc = { "2021-08-18": strand_festival_2020_hu_json_1.default };
+const mc = { "2023": strand_festival_2023_hu_json_1.default };
 const handleStrandJson = (parsedBody, category, url) => {
-    const cal = ical_generator_1.default({
+    const cal = (0, ical_generator_1.default)({
         url: `strand.perpixel.io${url}`,
-        name: `Strand Fesztivál 2021 - ${parsedBody.categories[cMap[category]].title}`,
+        name: `Strand Fesztivál 2023 - ${cMap[category]}`,
         method: ical_generator_1.ICalCalendarMethod.REFRESH,
     });
-    const programs = Object.values(strand_festival_2020_hu_json_1.default.programs);
+    const programs = Object.values(parsedBody.programs);
     const fullPrograms = programs.map((program) => ({
         ...program,
         performer: {
-            ...strand_festival_2020_hu_json_1.default.performers[program.performer],
-            desc: strand_festival_2020_hu_json_1.default.performers[program.performer].desc,
+            ...parsedBody.performers[program.performer],
+            desc: parsedBody.performers[program.performer].desc,
         },
-        place: program.place == "0"
+        place: program.place == 0
             ? { title: "Ismeretlen" }
-            : strand_festival_2020_hu_json_1.default.places[program.place],
+            : parsedBody.places[program.place],
     }));
-    const fullProgramsFiltered = fullPrograms.filter((ep) => ep.performer.category == cMap[category]);
+    console.log("typeof category", typeof category);
+    const fullProgramsFiltered = fullPrograms.filter((ep) => ep.performer.category === category ||
+        ep.performer.categories.includes(category));
+    console.log("fullProgramsFiltered.length, fullPrograms.length", fullProgramsFiltered.length, fullPrograms.length);
     fullProgramsFiltered.forEach((p) => cal.createEvent({
         start: moment_timezone_1.default.tz(p.startDate, "Europe/Budapest").utc(),
         end: moment_timezone_1.default.tz(p.endDate, "Europe/Budapest").utc(),
@@ -121,11 +113,15 @@ const handleStrandJson = (parsedBody, category, url) => {
     }));
     return cal;
 };
-const isValidCategory = (category) => category in cMap;
+const isValidCategory = (category) => !!cMap[category];
 const handler = async (req, res) => {
     reqs.push({ url: req.url, meta: req.headers });
     const urlParts = req.url.split("/");
-    const category = urlParts[urlParts.length - 1];
+    let category = urlParts[urlParts.length - 1];
+    try {
+        category = parseInt(category, 10);
+    }
+    catch { }
     if (!isValidCategory(category)) {
         if (category === "logs") {
             res.writeHead(200, { "Content-Type": "text/json" });
@@ -138,16 +134,17 @@ const handler = async (req, res) => {
         res.end();
         return;
     }
-    const currDate = moment_timezone_1.default().format("YYYY-MM-DD");
+    const currDate = (0, moment_timezone_1.default)().format("YYYY-MM-DD");
+    const currYear = currDate.split("-")[0];
     try {
-        mc[currDate] =
-            mc[currDate] ||
-                (await (await node_fetch_1.default(`https://widget.szigetfestival.com/data/strand-fesztival-2021-hu.json?d=${currDate}`)).json());
-        const cal = handleStrandJson(mc[currDate], category, req.url);
+        mc[currYear] =
+            mc[currYear] ||
+                (await (0, node_fetch_1.default)(`https://widget.sziget.hu/appmiral-data/strand-2022-hu.json?d=${currDate}`).then((r) => r.json()));
+        const cal = handleStrandJson(mc[currYear], category, req.url);
         cal.serve(res);
     }
     catch (e) {
-        console.error(e);
+        console.error(`URL: https://widget.sziget.hu/appmiral-data/strand-2022-hu.json?d=${currDate}`, e);
         res.write(JSON.stringify(e));
         res.end();
     }

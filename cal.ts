@@ -1,12 +1,18 @@
-import strandData from "./strand-festival-2020-hu.json";
+import strandData from "./strand-festival-2023-hu.json";
 import ical, { ICalCalendarMethod } from "ical-generator";
 import moment from "moment-timezone";
 import fetch from "node-fetch";
 import { IncomingMessage, ServerResponse } from "http";
 import { RequestHandler } from "express";
+import { getEnabledCategories } from "trace_events";
 
 let hits = 0;
 let reqs = [];
+
+const cMap = Object.entries(strandData.categories).reduce((acc, [k, v]) => {
+  acc[parseInt(k, 10)] = v.title;
+  return acc;
+}, {} as { [k: number]: string });
 
 const indexHtml = () =>
   `
@@ -41,24 +47,11 @@ const indexHtml = () =>
     top: 1px;
   }
 </style>
-<h2>Strand 2021 iCal v1 (${hits++})</h2>
+<h2>Strand 2023 iCal v1.5 (${hits++})</h2>
 <br/>
-<a href="./zene" class="myButton">zene</a>
-<br/>
-<a href="./nappal" class="myButton">nappal</a>
-<br/>
-<a href="./civil" class="myButton">civil * **</a>
-<br/>
-<a href="./csata" class="myButton">csata</a>
-<br/>
-<a href="./kaland" class="myButton">kaland</a>
-<br/>
-<br/>
-<i>* A Strand által szolgáltatott file miatt
-a 'civil' naptár más eseményeket is tartalmazhat 😅
-<br/>
-** Ezekhez a programokhoz nem adtak meg időpontokat,
-így egész naposként kerülnek a fesztivál teljes idejére a naptárba</i>
+${Object.entries(cMap)
+  .map(([k, v]) => `<a href="${k}" class="myButton">${v}</a>`)
+  .join("<br/>")}
 <br/>
 <br/>
 <b>Tipp:</b> új naptárként add hozzá, ne már létezőhöz, hogy ne keveredjen minden össze
@@ -66,14 +59,7 @@ a 'civil' naptár más eseményeket is tartalmazhat 😅
 <b>Tipp:</b> a Google Calendar, és az Apple Calendar is el tudja rejteni az egyes naptárakat
 `.trim();
 
-const cMap = {
-  zene: 511,
-  nappal: 512,
-  csata: 515,
-  kaland: 516,
-};
-
-const mc: { [key: string]: typeof strandData } = { "2021-08-18": strandData };
+const mc = { "2023": strandData } as const;
 
 const handleStrandJson = (
   parsedBody: typeof strandData,
@@ -82,35 +68,43 @@ const handleStrandJson = (
 ) => {
   const cal = ical({
     url: `strand.perpixel.io${url}`,
-    name: `Strand Fesztivál 2021 - ${
-      parsedBody.categories[cMap[category]].title
-    }`,
+    name: `Strand Fesztivál 2023 - ${cMap[category]}`,
     method: ICalCalendarMethod.REFRESH,
   });
 
-  const programs = Object.values(strandData.programs);
+  const programs = Object.values(parsedBody.programs);
 
   const fullPrograms = programs.map((program) => ({
     ...program,
     performer: {
-      ...(strandData.performers[
+      ...(parsedBody.performers[
         program.performer as any
-      ] as typeof strandData.performers[keyof typeof strandData.performers]),
+      ] as (typeof parsedBody.performers)[keyof typeof parsedBody.performers]),
       desc: (
-        strandData.performers[
+        parsedBody.performers[
           program.performer as any
-        ] as typeof strandData.performers[keyof typeof strandData.performers]
+        ] as (typeof parsedBody.performers)[keyof typeof parsedBody.performers]
       ).desc,
     },
     place:
-      program.place == "0"
+      program.place == 0
         ? { title: "Ismeretlen" }
-        : (strandData.places[
+        : (parsedBody.places[
             program.place as any
-          ] as typeof strandData.places[keyof typeof strandData.places]),
+          ] as (typeof parsedBody.places)[keyof typeof parsedBody.places]),
   }));
+
+  console.log("typeof category", typeof category);
   const fullProgramsFiltered = fullPrograms.filter(
-    (ep) => ep.performer.category == cMap[category]
+    (ep) =>
+      ep.performer.category === category ||
+      ep.performer.categories.includes(category)
+  );
+
+  console.log(
+    "fullProgramsFiltered.length, fullPrograms.length",
+    fullProgramsFiltered.length,
+    fullPrograms.length
   );
 
   fullProgramsFiltered.forEach((p) =>
@@ -129,13 +123,17 @@ const handleStrandJson = (
   return cal;
 };
 
-const isValidCategory = (category: string): category is keyof typeof cMap =>
-  category in cMap;
+const isValidCategory = (
+  category: string | number
+): category is keyof typeof cMap => !!cMap[category];
 
 const handler: RequestHandler = async (req, res) => {
   reqs.push({ url: req.url, meta: req.headers });
   const urlParts = req.url.split("/");
-  const category = urlParts[urlParts.length - 1];
+  let category: string | keyof typeof cMap = urlParts[urlParts.length - 1];
+  try {
+    category = parseInt(category, 10);
+  } catch {}
 
   if (!isValidCategory(category)) {
     if (category === "logs") {
@@ -150,19 +148,22 @@ const handler: RequestHandler = async (req, res) => {
     return;
   }
   const currDate = moment().format("YYYY-MM-DD");
+  const currYear = currDate.split("-")[0];
 
   try {
-    mc[currDate] =
-      mc[currDate] ||
-      ((await (
-        await fetch(
-          `https://widget.szigetfestival.com/data/strand-fesztival-2021-hu.json?d=${currDate}`
-        )
-      ).json()) as typeof strandData);
-    const cal = handleStrandJson(mc[currDate], category, req.url);
+    mc[currYear] =
+      mc[currYear] ||
+      ((await fetch(
+        `https://widget.sziget.hu/appmiral-data/strand-2022-hu.json?d=${currDate}` // 2023 had data in 2022json
+      ).then((r) => r.json())) as typeof strandData);
+
+    const cal = handleStrandJson(mc[currYear], category, req.url);
     cal.serve(res);
   } catch (e) {
-    console.error(e);
+    console.error(
+      `URL: https://widget.sziget.hu/appmiral-data/strand-2022-hu.json?d=${currDate}`, // 2023 had data in 2022json
+      e
+    );
     res.write(JSON.stringify(e));
     res.end();
   }

@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const http_1 = __importDefault(require("http"));
 const cal_1 = __importDefault(require("./cal"));
-const app = express_1.default();
+const app = (0, express_1.default)();
 app.use(cal_1.default);
 const port = process.env.PORT || "3000";
 app.set("port", port);
